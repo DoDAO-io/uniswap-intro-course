@@ -1,9 +1,8 @@
 title: DoDAO Course Template
 key: dodao-course-template
 summary: >-
-  This course explain what is AMM, what are liquidity pools, different type of
-  AMMs, what is concentrated liquidity and how to create a position on Uniswap
-  V3.
+  This course explains what is AMM, what is concentrated liquidity, and how to
+  create a position on Uniswap V3.
 highlights:
   - What is AMM
   - What are liquidity pools
