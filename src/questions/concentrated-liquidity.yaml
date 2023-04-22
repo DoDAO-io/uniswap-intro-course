@@ -1,0 +1,240 @@
+- uuid: 66e3c73d-4d4f-4fb4-8a2c-9b7f9b39d4df
+  type: SingleChoice
+  content: What is the formula used by Constant Product AMMs to determine token prices?
+  hint: 'Nohint'
+  explanation: >-
+    The formula used by Constant Product AMMs to determine token prices is x * y = k, where x and y represent the reserves of two tokens and k is the constant.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: x + y = k
+      key: A
+    - content: x * y = k
+      key: B
+    - content: x - y = k
+      key: C
+    - content: x / y = k
+      key: D
+- uuid: 4a951f4d-d48a-4ad4-b7d5-36e461f7e9f5
+  type: SingleChoice
+  content: Which of the following is a limitation of Constant Product AMMs?
+  hint: 'Nohint'
+  explanation: >-
+    Capital Inefficiency is a limitation of Constant Product AMMs because liquidity is spread evenly across the entire price curve, leading to potentially inefficient capital usage.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Capital Inefficiency
+      key: A
+    - content: High Liquidity Concentration
+      key: B
+    - content: Flexible Customization Options
+      key: C
+    - content: Low Slippage
+      key: D
+- uuid: 97f7e3e6-99ed-4b51-8d94-7649c6b24e6d
+  type: SingleChoice
+  content: How does Uniswap V3 address some of the limitations of Constant Product AMMs?
+  hint: 'Nohint'
+  explanation: >-
+    Uniswap V3 addresses some of the limitations of Constant Product AMMs by offering concentrated liquidity models, which provide more efficient capital usage, reduced impermanent loss, lower slippage, and increased customization options for liquidity providers.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: By using a different formula for token prices
+      key: A
+    - content: By offering a centralized exchange model
+      key: B
+    - content: By offering concentrated liquidity models
+      key: C
+    - content: By eliminating the need for liquidity providers
+      key: D
+
+
+# Step 2
+- uuid: 2d2d6a2c-45a9-4158-a6e0-1a3bda3e3b94
+  type: SingleChoice
+  content: What is the main difference between traditional AMMs and concentrated liquidity AMMs?
+  hint: 'Nohint'
+  explanation: >-
+    The main difference between traditional AMMs and concentrated liquidity AMMs is that concentrated liquidity AMMs allow liquidity providers to choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Concentrated liquidity AMMs require more tokens to be deposited
+      key: A
+    - content: Traditional AMMs offer better price stability
+      key: B
+    - content: Concentrated liquidity AMMs allow liquidity providers to choose a specific price range for providing liquidity
+      key: C
+    - content: Traditional AMMs have lower risks of impermanent loss
+      key: D
+- uuid: 9d7a6d63-6f8c-4fd5-889a-6e8f6c8d0eab
+  type: SingleChoice
+  content: How does concentrated liquidity AMM help reduce the risk of impermanent loss?
+  hint: 'Nohint'
+  explanation: >-
+    Concentrated liquidity AMM helps reduce the risk of impermanent loss by giving users the choice over the price range in which they want to deposit their liquidity, providing better control over their exposure to price fluctuations.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: By eliminating price fluctuations
+      key: A
+    - content: By giving users the choice over the price range to deposit their liquidity
+      key: B
+    - content: By using a different token pricing formula
+      key: C
+    - content: By increasing the number of tokens required for liquidity provision
+      key: D
+- uuid: 6ab32a0a-1c89-4d76-bf6c-32b2f201e35c
+  type: SingleChoice
+  content: What are the benefits of providing liquidity in a narrower price range using concentrated liquidity AMM?
+  hint: 'Nohint'
+  explanation: >-
+    Providing liquidity in a narrower price range using concentrated liquidity AMM leads to better price stability, reduced slippage, and potentially higher returns from trading fees.
+  answerKeys:
+    - D
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Higher risks of impermanent loss
+      key: A
+    - content: Lower returns from trading fees
+      key: B
+    - content: Increased price fluctuations
+      key: C
+    - content: Better price stability, reduced slippage, and potentially higher returns from trading fees
+      key: D
+
+
+# Step 3
+- uuid: 7a1bcafe-9e0d-4a4f-b4ea-5436b09a6a13
+  type: SingleChoice
+  content: What determines the level of liquidity concentration in concentrated liquidity AMM?
+  hint: 'Nohint'
+  explanation: >-
+    The level of liquidity concentration is determined by the narrowness of the range in which liquidity is provided.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The narrowness of the range in which liquidity is provided
+      key: A
+    - content: The total amount of liquidity in the pool
+      key: B
+    - content: The number of liquidity providers participating
+      key: C
+    - content: The price of the tokens being traded
+      key: D
+
+- uuid: 47a8e9b9-1d84-4a2e-8bcb-5d70f5b5f959
+  type: SingleChoice
+  content: In Scenario 1, why did Alice earn more fees than Carlos, even though they both provided the same liquidity?
+  hint: 'Nohint'
+  explanation: >-
+    Alice earned more fees than Carlos because she had a higher concentration of liquidity within the specified range.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Alice provided liquidity in a more volatile price range
+      key: A
+    - content: Alice had a higher concentration of liquidity within the specified range
+      key: B
+    - content: Alice's tokens were more valuable than Carlos's tokens
+      key: C
+    - content: Alice had more trading volume in her chosen range
+      key: D
+
+- uuid: 1b11e4c4-4e4b-4c7a-a0c0-2f3f3e5d24d5
+  type: SingleChoice
+  content: In Scenario 2, who has their liquidity within the range?
+  hint: 'Nohint'
+  explanation: >-
+    In Scenario 2, the liquidity is out of range for both Alice and Bob, but it is within the range for Carlos.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Alice
+      key: A
+    - content: Bob
+      key: B
+    - content: Carlos
+      key: C
+    - content: Alice and Bob
+      key: D
+
+# Step 4
+- uuid: 6a0d92a2-6dfc-4b1d-9f9d-ecf6c76a0a0a
+  type: SingleChoice
+  content: What does the price range in a concentrated liquidity AMM determine?
+  hint: 'Nohint'
+  explanation: >-
+    The price range in a concentrated liquidity AMM determines at which prices your liquidity will be active and generate fees.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The size of the liquidity pool
+      key: A
+    - content: At which prices your liquidity will be active and generate fees
+      key: B
+    - content: The trading volume of the token pair
+      key: C
+    - content: The gas fees associated with providing liquidity
+      key: D
+
+- uuid: 066b6c29-7a50-4a9c-9d5e-72298f5a6866
+  type: SingleChoice
+  content: What is the relationship between impermanent loss and the concentrated nature of liquidity in Uniswap V3?
+  hint: 'Nohint'
+  explanation: >-
+    The concentrated nature of liquidity in Uniswap V3 can lead to higher impermanent loss compared to other AMMs.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Concentrated liquidity can lead to higher impermanent loss
+      key: A
+    - content: Concentrated liquidity reduces impermanent loss
+      key: B
+    - content: Concentrated liquidity has no impact on impermanent loss
+      key: C
+    - content: Impermanent loss only occurs in traditional AMMs
+      key: D
+
+- uuid: 5ec36c46-5b5c-48e1-88a8-e76e2f57ce2a
+  type: SingleChoice
+  content: What factor should be considered when interacting with smart contracts on the Ethereum network while providing liquidity?
+  hint: 'Nohint'
+  explanation: >-
+    When interacting with smart contracts on the Ethereum network, gas fees should be considered as they can vary depending on network congestion.
+  answerKeys:
+    - D
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Token price stability
+      key: A
+    - content: Liquidity provider fees
+      key: B
+    - content: Price range width
+      key: C
+    - content: Gas fees
+      key: D

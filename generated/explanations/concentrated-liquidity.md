@@ -1,0 +1,99 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Concentrated Liquidity
+ 
+ **Constant Product AMM**        
+
+### Recap of Constant Product AMM
+<div align="center">
+<img style="max-height:400px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681500734628_constant_product_amm.png"/>
+</div>
+
+Constant product Automated Market Maker (AMM) is a decentralized exchange model that allows users to trade digital assets without the need for an order book. It relies on a mathematical formula that keeps the product of the two token reserves constant. The most famous example is Uniswap, which uses the `x*y=k` formula, where x and y represent the reserves of two tokens and k is the constant. This mechanism provides liquidity for trades and adjusts the token prices as supply and demand change, while incentivizing liquidity providers with fees from trades.
+
+### Example of Constant Product AMM
+
+<div align="center">
+<img style="max-height:400px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681500759976_constant_product_amm_example.png"/>
+</div>
+
+Let's consider two tokens, A and B, in a constant product AMM. Suppose the reserves of tokens are initially x=100 for token A and y=100 for token B, making the constant product k=100*100=10,000.
+
+Here are a few points for different token ratios:
+- If someone buys 10 tokens of A, the new reserve of A becomes 90 (100-10). To maintain the constant product k, the reserve of B must increase: 90*y=10,000, so y≈111.11. The ratio becomes 90:111.11.
+- If someone buys 50 tokens of A, the new reserve of A becomes 50 (100-50). To maintain the constant product k, the reserve of B must increase: 50*y=10,000, so y=200. The ratio becomes 50:200.
+- If someone sells 10 tokens of A, the new reserve of A becomes 110 (100+10). To maintain the constant product k, the reserve of B must decrease: 110*y=10,000, so y≈90.91. The ratio becomes 110:90.91.
+
+In each example, the constant product AMM adjusts the reserves of A and B to maintain the constant k, which in turn affects the token prices as the ratio between the two tokens changes.
+
+### Limitation of Constant Product AMMs
+While Constant Product AMMs have been widely adopted, they have certain limitations
+
+1. Capital Inefficiency: In Constant Product AMMs, liquidity is spread evenly across the entire price curve. This means that a significant portion of the deposited assets may not be actively used for trading, making the capital usage inefficient. Concentrated liquidity models allow liquidity providers to focus their capital on specific price ranges where trading is more likely, leading to better capital efficiency and potentially higher returns.
+
+2. Slippage: Constant Product AMMs use a simple x * y = k formula to determine token prices, which can result in significant slippage (price change due to trade size) for large trades. As the liquidity pool size increases, slippage decreases, but it is still a concern for large orders. Concentrated liquidity models can reduce slippage by concentrating liquidity within narrower price ranges, providing more accurate and stable prices.
+
+3. Limited Customization: Constant Product AMMs do not offer much flexibility for liquidity providers in terms of customizing their exposure to different tokens or price ranges. Concentrated liquidity models, on the other hand, provide more control to liquidity providers by allowing them to choose specific price ranges and even adjust their positions as market conditions change.
+
+Uniswap V3's concentrated liquidity models address some of the key limitations of Constant Product AMMs by offering more efficient capital usage, reduced impermanent loss, lower slippage, and increased customization options for liquidity providers. These improvements can lead to better returns for liquidity providers and a more efficient and stable trading experience for users. 
+ **Concentrated Liquidity**        
+### What is Concentrated Liquidity AMM?
+Concentrated liquidity AMM is a new approach to decentralized trading that allows people to provide liquidity to a market more efficiently. Here's a simple explanation:
+
+1. In traditional AMMs, people deposit two tokens in equal value to create a liquidity pool. This pool is used to facilitate trading between those two tokens.
+2. In the case of concentrated liquidity AMM, people can choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.
+3. By focusing their funds on a smaller price range, they can have a more significant impact on that range, which means their money is being used more effectively.
+4. This approach helps reduce the risk of impermanent loss, as it gives choice to the user over what range do they want to deposit the liquidity.
+5. Concentrated liquidity AMM also allows for better price stability and reduced slippage, which is the change in price when a trade is executed. This is important because high slippage can lead to unfavorable trade outcomes.
+
+In a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.
+
+### Concentrated Liquidity Example
+Let's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC pool using a concentrated liquidity AMM. They each have an equal amount of ETH and USDC but want to deposit their funds over different price ranges.
+
+<div align="center">
+<img style="max-height:400px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681575680046_concentrated_liquidity%20example.png"/>
+</div>
+
+Now, the ETH-USDC pool has separate areas of concentrated liquidity:
+
+As long as the price of ETH stays within their chosen ranges, Alice, Bob, and Carols's funds will be actively used to facilitate trades. If the price moves outside of their chosen ranges, their liquidity will not be used, and they won't earn fees from trades happening outside their specified price ranges.
+
+By focusing their liquidity on narrower price ranges, Alice, Bob, and Carols can provide more substantial support for the market within those ranges. This leads to better price stability, reduced slippage, and potentially higher returns from trading fees for each of them.
+
+
+
+ 
+ **Earning Fees**        
+We can examine some instances to understand how concentrated liquidity operates and how liquidity providers make profits, depending on their position within the range and the level of liquidity concentration. This is determined by the narrowness of the range in which liquidity is provided.
+
+## Scenario 1 
+<div align="center">
+<img style="max-height:400px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681588401410_example_scenario_1.png"/>
+</div>
+<br/>
+Alice and Carlos have sufficient liquidity within range, but Bob's liquidity lies outside the range since he provided $2000-$2500. Alice earned more fees than Carlos, even though they both offered the same liquidity. This is because Alice has a higher concentration of liquidity.
+
+## Scenario 2
+
+<div align="center">
+<img style="max-height:400px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681920255744_05_concentrated_example_scenario_2.png"/>
+</div>
+
+In this scenario the liquidity is out of range for both Alice and Bob, but is in rage for Carlos.  
+ **Conclusion**        
+When creating a position in a Concentrated Liquidity Automated Market Maker (AMM) like Uniswap V3, there are several key points to keep in mind to ensure an optimal strategy and manage risks effectively:
+
+1. Token Pair: Select the token pair for which you want to provide liquidity. It is crucial to understand the underlying assets, their price movements, and their potential correlations.
+2. Price Range: Define a price range for the liquidity provision. This range determines at which prices your liquidity will be active. Choosing a suitable range is essential to maximize your returns, as liquidity will only be utilized and generate fees when the price is within this range.
+3. Position Size: Consider the size of your liquidity provision based on your risk tolerance, investment strategy, and the amount of capital you're willing to allocate. Remember that larger positions may be subject to higher impermanent loss risks.
+4. Liquidity Provider (LP) Fees: Understand the fees associated with providing liquidity. In Uniswap V3, the fees depend on the chosen fee tier (0.05%, 0.30%, or 1.00%). Assess the trade-off between higher fees and potential trading volume to optimize your returns.
+5. Impermanent Loss: Be aware of the potential for impermanent loss, which can occur when the price of the underlying assets changes relative to when you deposited them. The concentrated nature of liquidity in Uniswap V3 can lead to higher impermanent loss compared to other AMMs.
+6. Active Management: Concentrated liquidity often requires more active management than traditional AMMs. Monitor your position, and adjust the price range or liquidity provision as needed to adapt to changing market conditions.
+7. Gas Fees: Keep in mind that interacting with smart contracts on the Ethereum network incurs gas fees. These fees can vary depending on network congestion and should be factored into your overall investment strategy.
+
+By considering these points and conducting thorough research, you can create an effective position in a concentrated liquidity AMM and manage your risks accordingly. 
+ 

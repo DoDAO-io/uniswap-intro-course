@@ -44,6 +44,7 @@ topics:
       (AMM) algorithms, improving the overall trading experience by reducing
       slippage and enhancing price stability for traders.
     explanations: concentrated-liquidity.yaml
+    questions: concentrated-liquidity.yaml
   - key: impermanent-loss
     title: Impermanent Loss
     details: >-
