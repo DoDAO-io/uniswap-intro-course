@@ -1,0 +1,255 @@
+- uuid: 1a13f71b-7f9c-4302-92c6-08f263a02b66
+  type: SingleChoice
+  content: What are some of the reasons for exchanging cryptocurrencies?
+  hint: 'NoHint'
+  explanation: >-
+    Cryptocurrencies are exchanged for reasons like investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: For gaming purposes only
+      key: A
+    - content: >-
+        Investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance
+      key: B
+    - content: For online shopping only
+      key: C
+    - content: As a means to exchange physical goods
+      key: D
+- uuid: 28f0d7b2-742e-4a9a-9dcb-7c2421a33b32
+  type: SingleChoice
+  content: What is the main function of an order book in traditional asset trading?
+  hint: 'NoHint'
+  explanation: >-
+    The main function of an order book is to show the supply and demand for an asset, allowing traders to make informed decisions. It lists buy and sell orders for a financial instrument.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: To show the supply and demand for an asset, allowing traders to make informed decisions
+      key: A
+    - content: To keep track of past trades
+      key: B
+    - content: To manage trader accounts
+      key: C
+    - content: To regulate trading fees
+      key: D
+- uuid: 3299b9c4-7da0-4a24-8e44-8a66bbd0e1ef
+  type: SingleChoice
+  content: What is the primary difference between an Automated Market Maker (AMM) and a traditional order book?
+  hint: 'NoHint'
+  explanation: >-
+    The primary difference is that an AMM is a type of decentralized exchange (DEX) protocol using a mathematical algorithm to create a market for trading assets without market makers, while a traditional order book relies on a centralized platform where buyers and sellers place orders.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: AMM is only for cryptocurrencies, while order books are for traditional assets
+      key: A
+    - content: AMM relies on market makers, while order books use mathematical algorithms
+      key: B
+    - content: >-
+        AMM uses a mathematical algorithm to create a market without market makers, while order books rely on a centralized platform for buyers and sellers to place orders
+      key: C
+    - content: AMM is a centralized platform, while order books are decentralized
+      key: D
+
+## step 2
+
+- uuid: 123456a1-7c8d-9e10-1a2b-3c4de5f6a7b8
+  type: SingleChoice
+  content: What is the role of an Automated Market Maker (AMM) in decentralized exchanges?
+  hint: 'Nohint'
+  explanation: >-
+    An AMM replaces the role of a traditional market maker with a mathematical algorithm that determines the price of assets being traded and allows traders to trade cryptocurrencies and other digital assets without an order book or an intermediary.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: To act as an intermediary for trading
+      key: A
+    - content: To maintain an order book for asset trading
+      key: B
+    - content: To determine the price of assets using a mathematical algorithm
+      key: C
+    - content: To provide a platform for buying and selling NFTs
+      key: D
+
+- uuid: 223456a1-7c8d-9e10-1a2b-3c4de5f6a7b8
+  type: SingleChoice
+  content: What is the most common mathematical formula used in AMMs for price calculation?
+  hint: 'Nohint'
+  explanation: >-
+    The most common mathematical formula used in AMMs is the constant product formula, also known as the x*y=k formula. This formula ensures that the product of the quantity of each asset in the pool remains constant.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: x+y=k
+      key: A
+    - content: x*y=k
+      key: B
+    - content: x/y=k
+      key: C
+    - content: x^y=k
+      key: D
+
+- uuid: 323456a1-7c8d-9e10-1a2b-3c4de5f6a7b8
+  type: SingleChoice
+  content: Which of the following is a benefit of AMMs over order books?
+  hint: 'Nohint'
+  explanation: >-
+    AMMs provide liquidity to traders with always available prices, while order books require both buyer and seller to agree on a price leading to low liquidity for some assets.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Always available prices providing liquidity
+      key: A
+    - content: Requiring buyer and seller agreement on prices
+      key: B
+    - content: Depending on intermediaries for trading
+      key: C
+    - content: Higher barriers to entry for traders
+      key: D
+
+## step 3
+- uuid: 7c94a1e2-3ce6-4533-a3d7-1281bc2b7a33
+  type: SingleChoice
+  content: What is the primary purpose of a liquidity pool?
+  hint: 'Nohint'
+  explanation: >-
+    The primary purpose of a liquidity pool is to enable decentralized trading by
+    providing a source of liquidity on a decentralized exchange.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: To manage the price of cryptocurrencies
+      key: A
+    - content: To store users' funds for security purposes
+      key: B
+    - content: To provide a source of liquidity for decentralized trading
+      key: C
+    - content: To facilitate the creation of new tokens
+      key: D
+
+- uuid: a6e53f6a-6026-4c6f-a6de-1a6c73b25ad8
+  type: SingleChoice
+  content: What do liquidity providers receive in Uniswap V3?
+  hint: 'Nohint'
+  explanation: >-
+    In Uniswap V3, liquidity providers receive a non-fungible token (NFT) called
+    a "liquidity position token" that represents their specific position within a
+    particular tick range.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Traditional liquidity pool tokens
+      key: A
+    - content: A non-fungible token called a "liquidity position token"
+      key: B
+    - content: A fungible token representing their share in the pool
+      key: C
+    - content: A token linked to the value of the provided assets
+      key: D
+
+- uuid: 4d4a897e-1e44-4de4-9e47-1d2f96c3ab9b
+  type: SingleChoice
+  content: How does the smart contract ensure the liquidity pool's price remains balanced?
+  hint: 'Nohint'
+  explanation: >-
+    The smart contract automatically adjusts the ratio of the two tokens in the
+    pool to ensure the price remains balanced. It adjusts the prices to encourage
+    more users to sell the token with higher demand and buy the token with lower
+    demand.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: By increasing the total supply of tokens in the pool
+      key: A
+    - content: By periodically resetting the token ratios
+      key: B
+    - content: By adjusting the token ratios based on demand
+      key: C
+    - content: By locking the token prices to a fixed exchange rate
+      key: D
+
+## step 4
+- uuid: 9afbb6b4-1f94-4ca8-863d-bfeb6c4a6e4f
+  type: SingleChoice
+  content: What determines the price of each token in a Constant Product AMM?
+  hint: 'Nohint'
+  explanation: >-
+    In a Constant Product AMM, the price of each token is determined by the ratio
+    of the number of tokens in the pool. As more people buy a token, its price
+    will increase, and the price of the other token will decrease, and vice versa.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The total number of tokens in the pool
+      key: A
+    - content: The total value of the assets in the pool
+      key: B
+    - content: The ratio of the number of tokens in the pool
+      key: C
+    - content: The fixed exchange rate between the tokens
+      key: D
+
+- uuid: 5ac9e0b9-57e1-4fa0-bca6-4d1d591e6f4e
+  type: SingleChoice
+  content: In which type of AMM does the sum of the quantity of two assets in a liquidity pool remain constant?
+  hint: 'Nohint'
+  explanation: >-
+    In a Constant Sum AMM, the sum of the quantity of two assets in a liquidity
+    pool remains constant.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Constant Sum AMM
+      key: A
+    - content: Constant Product AMM
+      key: B
+    - content: Hybrid AMM
+      key: C
+    - content: None of the above
+      key: D
+
+- uuid: 45a063de-8d26-4f0c-9b29-cc844405a8cd
+  type: SingleChoice
+  content: Which type of AMM allows liquidity providers to set parameters such as the ratio of the two assets in the pool and the sum of the two assets in the pool?
+  hint: 'Nohint'
+  explanation: >-
+    Hybrid AMMs allow liquidity providers to set parameters such as the ratio of
+    the two assets in the pool and the sum of the two assets in the pool.
+  answerKeys:
+    - D
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Constant Sum AMM
+      key: A
+    - content: Constant Product AMM
+      key: B
+    - content: None of the above
+      key: C
+    - content: Hybrid AMM
+      key: D
+
+## step 5

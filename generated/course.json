@@ -21,15 +21,15 @@
   "topics": [
     {
       "title": "What Is a DEX?",
-      "key": "introduction",
+      "key": "what-is-dex",
       "details": "Smart contract auditing is the process of reviewing and testing the source code of a smart contract to identify any potential vulnerabilities or security issues. This can include checking for errors in the code, evaluating the contract's overall design and architecture, and testing the contract's functionality to ensure that it performs as intended. The goal of a smart contract audit is to ensure that the contract is secure and reliable, and that it will function as intended when deployed on a blockchain network.\n\n",
       "order": 0,
       "explanations": [
         {
           "key": "what-is-automated-market-maker",
+          "title": "What is Automated Market Maker?",
           "shortTitle": "What is AMM?",
-          "details": "\n### Exchanging Assets\n\nCryptocurrencies are exchanged for reasons similar to those in traditional financial markets, including investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance. Cryptocurrencies are seen as a new asset class with high potential returns and are highly volatile, creating trading opportunities for investors. Cryptocurrencies can be used to hedge against other investments or to manage risk in a portfolio. They can also be used as a means of payment for online transactions or remittances. Investors may exchange cryptocurrencies to gain access to new tokens or projects not available on traditional markets or to comply with regulations.\n\n### Traditional Way - Order Book\nAssets are traded on an exchange through a centralized platform, an order book, where buyers and sellers place orders to buy or sell a specific asset. Trading involves placing an order, matching orders based on price and other parameters, settling the trade, and clearing it through a central counterparty. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107243577_order_book.png\"/>\n</div>\n\nAn order book is a list of buy and sell orders for a financial instrument. It shows the supply and demand for the asset and allows traders to make informed decisions. Each order includes the type, price, quantity, and time. Orders are matched and filled based on price and time stamp. Order books are used in exchange-traded markets for transparency and price discovery.\n\n### New Way - Automated Market Maker\nAn automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that uses a mathematical algorithm to create a market for trading assets without market makers. It creates a liquidity pool for each asset pair, and the pool's algorithm determines the asset's price based on the ratio of tokens in the pool. The AMM algorithm ensures that the pool has sufficient funds for trading and adjusts the price according to the trading volume and liquidity. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682097075973_10_amm_basic.png\"/>\n</div>\n\n\nAMMs are used in DeFi platforms and are popular for their simplicity, transparency, and accessibility.\n\n\n",
-          "title": "What is Automated Market Maker?"
+          "details": "\n### Exchanging Assets\n\nCryptocurrencies are exchanged for reasons similar to those in traditional financial markets, including investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance. Cryptocurrencies are seen as a new asset class with high potential returns and are highly volatile, creating trading opportunities for investors. Cryptocurrencies can be used to hedge against other investments or to manage risk in a portfolio. They can also be used as a means of payment for online transactions or remittances. Investors may exchange cryptocurrencies to gain access to new tokens or projects not available on traditional markets or to comply with regulations.\n\n### Traditional Way - Order Book\nAssets are traded on an exchange through a centralized platform, an order book, where buyers and sellers place orders to buy or sell a specific asset. Trading involves placing an order, matching orders based on price and other parameters, settling the trade, and clearing it through a central counterparty. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107243577_order_book.png\"/>\n</div>\n\nAn order book is a list of buy and sell orders for a financial instrument. It shows the supply and demand for the asset and allows traders to make informed decisions. Each order includes the type, price, quantity, and time. Orders are matched and filled based on price and time stamp. Order books are used in exchange-traded markets for transparency and price discovery.\n\n### New Way - Automated Market Maker\nAn automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that uses a mathematical algorithm to create a market for trading assets without market makers. It creates a liquidity pool for each asset pair, and the pool's algorithm determines the asset's price based on the ratio of tokens in the pool. The AMM algorithm ensures that the pool has sufficient funds for trading and adjusts the price according to the trading volume and liquidity. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682097075973_10_amm_basic.png\"/>\n</div>\n\n\nAMMs are used in DeFi platforms and are popular for their simplicity, transparency, and accessibility.\n\n\n"
         },
         {
           "key": "how-amm-works",
@@ -56,46 +56,410 @@
           "title": "Conclusion"
         }
       ],
+      "questions": [
+        {
+          "uuid": "1a13f71b-7f9c-4302-92c6-08f263a02b66",
+          "type": "SingleChoice",
+          "content": "What are some of the reasons for exchanging cryptocurrencies?",
+          "hint": "NoHint",
+          "explanation": "Cryptocurrencies are exchanged for reasons like investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "For gaming purposes only",
+              "key": "A"
+            },
+            {
+              "content": "Investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance",
+              "key": "B"
+            },
+            {
+              "content": "For online shopping only",
+              "key": "C"
+            },
+            {
+              "content": "As a means to exchange physical goods",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "28f0d7b2-742e-4a9a-9dcb-7c2421a33b32",
+          "type": "SingleChoice",
+          "content": "What is the main function of an order book in traditional asset trading?",
+          "hint": "NoHint",
+          "explanation": "The main function of an order book is to show the supply and demand for an asset, allowing traders to make informed decisions. It lists buy and sell orders for a financial instrument.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "To show the supply and demand for an asset, allowing traders to make informed decisions",
+              "key": "A"
+            },
+            {
+              "content": "To keep track of past trades",
+              "key": "B"
+            },
+            {
+              "content": "To manage trader accounts",
+              "key": "C"
+            },
+            {
+              "content": "To regulate trading fees",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "3299b9c4-7da0-4a24-8e44-8a66bbd0e1ef",
+          "type": "SingleChoice",
+          "content": "What is the primary difference between an Automated Market Maker (AMM) and a traditional order book?",
+          "hint": "NoHint",
+          "explanation": "The primary difference is that an AMM is a type of decentralized exchange (DEX) protocol using a mathematical algorithm to create a market for trading assets without market makers, while a traditional order book relies on a centralized platform where buyers and sellers place orders.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "AMM is only for cryptocurrencies, while order books are for traditional assets",
+              "key": "A"
+            },
+            {
+              "content": "AMM relies on market makers, while order books use mathematical algorithms",
+              "key": "B"
+            },
+            {
+              "content": "AMM uses a mathematical algorithm to create a market without market makers, while order books rely on a centralized platform for buyers and sellers to place orders",
+              "key": "C"
+            },
+            {
+              "content": "AMM is a centralized platform, while order books are decentralized",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123456a1-7c8d-9e10-1a2b-3c4de5f6a7b8",
+          "type": "SingleChoice",
+          "content": "What is the role of an Automated Market Maker (AMM) in decentralized exchanges?",
+          "hint": "Nohint",
+          "explanation": "An AMM replaces the role of a traditional market maker with a mathematical algorithm that determines the price of assets being traded and allows traders to trade cryptocurrencies and other digital assets without an order book or an intermediary.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "To act as an intermediary for trading",
+              "key": "A"
+            },
+            {
+              "content": "To maintain an order book for asset trading",
+              "key": "B"
+            },
+            {
+              "content": "To determine the price of assets using a mathematical algorithm",
+              "key": "C"
+            },
+            {
+              "content": "To provide a platform for buying and selling NFTs",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "223456a1-7c8d-9e10-1a2b-3c4de5f6a7b8",
+          "type": "SingleChoice",
+          "content": "What is the most common mathematical formula used in AMMs for price calculation?",
+          "hint": "Nohint",
+          "explanation": "The most common mathematical formula used in AMMs is the constant product formula, also known as the x*y=k formula. This formula ensures that the product of the quantity of each asset in the pool remains constant.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "x+y=k",
+              "key": "A"
+            },
+            {
+              "content": "x*y=k",
+              "key": "B"
+            },
+            {
+              "content": "x/y=k",
+              "key": "C"
+            },
+            {
+              "content": "x^y=k",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "323456a1-7c8d-9e10-1a2b-3c4de5f6a7b8",
+          "type": "SingleChoice",
+          "content": "Which of the following is a benefit of AMMs over order books?",
+          "hint": "Nohint",
+          "explanation": "AMMs provide liquidity to traders with always available prices, while order books require both buyer and seller to agree on a price leading to low liquidity for some assets.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Always available prices providing liquidity",
+              "key": "A"
+            },
+            {
+              "content": "Requiring buyer and seller agreement on prices",
+              "key": "B"
+            },
+            {
+              "content": "Depending on intermediaries for trading",
+              "key": "C"
+            },
+            {
+              "content": "Higher barriers to entry for traders",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "7c94a1e2-3ce6-4533-a3d7-1281bc2b7a33",
+          "type": "SingleChoice",
+          "content": "What is the primary purpose of a liquidity pool?",
+          "hint": "Nohint",
+          "explanation": "The primary purpose of a liquidity pool is to enable decentralized trading by providing a source of liquidity on a decentralized exchange.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "To manage the price of cryptocurrencies",
+              "key": "A"
+            },
+            {
+              "content": "To store users' funds for security purposes",
+              "key": "B"
+            },
+            {
+              "content": "To provide a source of liquidity for decentralized trading",
+              "key": "C"
+            },
+            {
+              "content": "To facilitate the creation of new tokens",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a6e53f6a-6026-4c6f-a6de-1a6c73b25ad8",
+          "type": "SingleChoice",
+          "content": "What do liquidity providers receive in Uniswap V3?",
+          "hint": "Nohint",
+          "explanation": "In Uniswap V3, liquidity providers receive a non-fungible token (NFT) called a \"liquidity position token\" that represents their specific position within a particular tick range.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Traditional liquidity pool tokens",
+              "key": "A"
+            },
+            {
+              "content": "A non-fungible token called a \"liquidity position token\"",
+              "key": "B"
+            },
+            {
+              "content": "A fungible token representing their share in the pool",
+              "key": "C"
+            },
+            {
+              "content": "A token linked to the value of the provided assets",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "4d4a897e-1e44-4de4-9e47-1d2f96c3ab9b",
+          "type": "SingleChoice",
+          "content": "How does the smart contract ensure the liquidity pool's price remains balanced?",
+          "hint": "Nohint",
+          "explanation": "The smart contract automatically adjusts the ratio of the two tokens in the pool to ensure the price remains balanced. It adjusts the prices to encourage more users to sell the token with higher demand and buy the token with lower demand.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "By increasing the total supply of tokens in the pool",
+              "key": "A"
+            },
+            {
+              "content": "By periodically resetting the token ratios",
+              "key": "B"
+            },
+            {
+              "content": "By adjusting the token ratios based on demand",
+              "key": "C"
+            },
+            {
+              "content": "By locking the token prices to a fixed exchange rate",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9afbb6b4-1f94-4ca8-863d-bfeb6c4a6e4f",
+          "type": "SingleChoice",
+          "content": "What determines the price of each token in a Constant Product AMM?",
+          "hint": "Nohint",
+          "explanation": "In a Constant Product AMM, the price of each token is determined by the ratio of the number of tokens in the pool. As more people buy a token, its price will increase, and the price of the other token will decrease, and vice versa.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The total number of tokens in the pool",
+              "key": "A"
+            },
+            {
+              "content": "The total value of the assets in the pool",
+              "key": "B"
+            },
+            {
+              "content": "The ratio of the number of tokens in the pool",
+              "key": "C"
+            },
+            {
+              "content": "The fixed exchange rate between the tokens",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5ac9e0b9-57e1-4fa0-bca6-4d1d591e6f4e",
+          "type": "SingleChoice",
+          "content": "In which type of AMM does the sum of the quantity of two assets in a liquidity pool remain constant?",
+          "hint": "Nohint",
+          "explanation": "In a Constant Sum AMM, the sum of the quantity of two assets in a liquidity pool remains constant.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Constant Sum AMM",
+              "key": "A"
+            },
+            {
+              "content": "Constant Product AMM",
+              "key": "B"
+            },
+            {
+              "content": "Hybrid AMM",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "45a063de-8d26-4f0c-9b29-cc844405a8cd",
+          "type": "SingleChoice",
+          "content": "Which type of AMM allows liquidity providers to set parameters such as the ratio of the two assets in the pool and the sum of the two assets in the pool?",
+          "hint": "Nohint",
+          "explanation": "Hybrid AMMs allow liquidity providers to set parameters such as the ratio of the two assets in the pool and the sum of the two assets in the pool.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Constant Sum AMM",
+              "key": "A"
+            },
+            {
+              "content": "Constant Product AMM",
+              "key": "B"
+            },
+            {
+              "content": "None of the above",
+              "key": "C"
+            },
+            {
+              "content": "Hybrid AMM",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [],
+      "summaries": []
+    },
+    {
+      "title": "Concentrated Liquidity",
+      "key": "concentrated-liquidity",
+      "details": "Concentrated liquidity is a concept employed by some decentralized finance (DeFi) platforms, which allows liquidity providers (LPs) to allocate their assets within a specific price range rather than across the entire price spectrum. This approach enables LPs to focus their capital on the price levels where trading is most likely to occur, potentially leading to higher returns due to increased capital efficiency. By concentrating liquidity, DeFi platforms can also optimize their automated market-making (AMM) algorithms, improving the overall trading experience by reducing slippage and enhancing price stability for traders.",
+      "order": 1,
+      "explanations": [],
       "questions": [],
       "readings": [],
       "summaries": []
     },
     {
-      "key": "concentrated-liquidity",
-      "title": "Concentrated Liquidity",
-      "details": "Concentrated liquidity is a concept employed by some decentralized finance (DeFi) platforms, which allows liquidity providers (LPs) to allocate their assets within a specific price range rather than across the entire price spectrum. This approach enables LPs to focus their capital on the price levels where trading is most likely to occur, potentially leading to higher returns due to increased capital efficiency. By concentrating liquidity, DeFi platforms can also optimize their automated market-making (AMM) algorithms, improving the overall trading experience by reducing slippage and enhancing price stability for traders.",
-      "explanations": [],
-      "readings": [],
-      "summaries": [],
-      "questions": []
-    },
-    {
-      "key": "impermanent-loss",
       "title": "Impermanent Loss",
+      "key": "impermanent-loss",
       "details": "Impermanent loss is a temporary loss of value that liquidity providers (LPs) can experience when participating in decentralized finance (DeFi) platforms, specifically in automated market-making (AMM) pools. It occurs when the relative prices of the assets in the pool change compared to the initial ratio at which they were deposited. As the AMM algorithm constantly rebalances the pool to maintain the desired ratio, LPs may end up holding a less valuable combination of assets than if they had held the original assets individually. The loss is considered \"impermanent\" because it can be mitigated or reversed if the relative prices of the assets return to their initial levels before the LPs withdraw their funds from the pool. However, if the prices don't revert, the loss becomes permanent upon withdrawal.",
+      "order": 2,
       "explanations": [],
+      "questions": [],
       "readings": [],
-      "summaries": [],
-      "questions": []
+      "summaries": []
     },
     {
-      "key": "liquidity-pool-details",
       "title": "Liquidity Pool Details",
+      "key": "liquidity-pool-details",
       "details": "In Uniswap V3, range and ticks are essential components of the concentrated liquidity mechanism. A range represents the custom price interval within which liquidity providers (LPs) allocate their assets, defined by a lower and an upper price boundary. Ticks are the individual price points within this range, equally spaced on a logarithmic scale. Each tick represents a change in the price ratio between the two assets in a liquidity pool. When the market price of the assets moves within the specified range, LPs earn fees from the trades occurring between those ticks. As the price moves across ticks, the LP's position is constantly rebalanced to maintain the desired ratio, with the LP's assets automatically increasing in one asset and decreasing in the other. This mechanism enables LPs to concentrate their capital within specific price ranges, increasing their potential returns and making the overall liquidity provision process more capital efficient.\n\n\n\n\n",
+      "order": 3,
       "explanations": [],
+      "questions": [],
       "readings": [],
-      "summaries": [],
-      "questions": []
+      "summaries": []
     },
     {
-      "key": "adding-liquidity",
       "title": "Adding Liquidity",
+      "key": "adding-liquidity",
       "details": "Creating a liquidity provider position in Uniswap v3 involves depositing two different tokens into a specific pool, which represents a specific price range for those tokens. This is different from Uniswap v2, where liquidity providers could only deposit tokens in a single pool with a fixed price ratio. In Uniswap v3, liquidity providers can choose to deposit tokens in multiple pools with different price ranges, which allows them to provide liquidity more efficiently. Once the tokens are deposited, liquidity providers receive liquidity provider (LP) tokens in return, which represent their share of the pool. LP tokens can be used to withdraw their share of the deposited tokens, plus a share of the trading fees earned by the pool, when they are ready to exit their position.\n\n\n\n\n",
+      "order": 4,
       "explanations": [],
+      "questions": [],
       "readings": [],
-      "summaries": [],
-      "questions": []
+      "summaries": []
     }
-  ],
-  "priority": 50
+  ]
 }
