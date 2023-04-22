@@ -29,6 +29,7 @@ topics:
       reliable, and that it will function as intended when deployed on a
       blockchain network.
 
+    explanations: introduction.yaml
   - key: concentrated-liquidity
     title: Concentrated Liquidity
     details: >-
