@@ -96,3 +96,72 @@
     options for liquidity providers. These improvements can lead to better
     returns for liquidity providers and a more efficient and stable trading
     experience for users.
+- key: concentrated-liquidity
+  shortTitle: Concentrated Liq.
+  details: >+
+    ### What is Concentrated Liquidity AMM?
+
+    Concentrated liquidity AMM is a new approach to decentralized trading that
+    allows people to provide liquidity to a market more efficiently. Here's a
+    simple explanation:
+
+
+    1. In traditional AMMs, people deposit two tokens in equal value to create a
+    liquidity pool. This pool is used to facilitate trading between those two
+    tokens.
+
+    2. In the case of concentrated liquidity AMM, people can choose a specific
+    price range where they want to provide liquidity, instead of spreading it
+    evenly across all possible prices.
+
+    3. By focusing their funds on a smaller price range, they can have a more
+    significant impact on that range, which means their money is being used more
+    effectively.
+
+    4. This approach helps reduce the risk of impermanent loss, as it gives
+    choice to the user over what range do they want to deposit the liquidity.
+
+    5. Concentrated liquidity AMM also allows for better price stability and
+    reduced slippage, which is the change in price when a trade is executed.
+    This is important because high slippage can lead to unfavorable trade
+    outcomes.
+
+
+    In a nutshell, concentrated liquidity AMM helps people get more out of their
+    money by allowing them to focus their liquidity where it's needed most,
+    reducing risks and providing better trading experiences for users.
+
+
+    ### Concentrated Liquidity Example
+
+    Let's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC
+    pool using a concentrated liquidity AMM. They each have an equal amount of
+    ETH and USDC but want to deposit their funds over different price ranges.
+
+
+    <div align="center">
+
+    <img style="max-height:400px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681575680046_concentrated_liquidity%20example.png"/>
+
+    </div>
+
+
+    Now, the ETH-USDC pool has separate areas of concentrated liquidity:
+
+
+    As long as the price of ETH stays within their chosen ranges, Alice, Bob,
+    and Carols's funds will be actively used to facilitate trades. If the price
+    moves outside of their chosen ranges, their liquidity will not be used, and
+    they won't earn fees from trades happening outside their specified price
+    ranges.
+
+
+    By focusing their liquidity on narrower price ranges, Alice, Bob, and Carols
+    can provide more substantial support for the market within those ranges.
+    This leads to better price stability, reduced slippage, and potentially
+    higher returns from trading fees for each of them.
+
+
+
+  title: Concentrated Liquidity
