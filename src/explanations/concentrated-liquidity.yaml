@@ -165,3 +165,43 @@
 
 
   title: Concentrated Liquidity
+- key: earning-fees
+  shortTitle: Earning Fees
+  details: >-
+    We can examine some instances to understand how concentrated liquidity
+    operates and how liquidity providers make profits, depending on their
+    position within the range and the level of liquidity concentration. This is
+    determined by the narrowness of the range in which liquidity is provided.
+
+
+    ## Scenario 1 
+
+    <div align="center">
+
+    <img style="max-height:400px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681588401410_example_scenario_1.png"/>
+
+    </div>
+
+    <br/>
+
+    Alice and Carlos have sufficient liquidity within range, but Bob's liquidity
+    lies outside the range since he provided $2000-$2500. Alice earned more fees
+    than Carlos, even though they both offered the same liquidity. This is
+    because Alice has a higher concentration of liquidity.
+
+
+    ## Scenario 2
+
+
+    <div align="center">
+
+    <img style="max-height:400px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681920255744_05_concentrated_example_scenario_2.png"/>
+
+    </div>
+
+
+    In this scenario the liquidity is out of range for both Alice and Bob, but
+    is in rage for Carlos. 
+  title: Earning Fees
