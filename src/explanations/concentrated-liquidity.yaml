@@ -205,3 +205,49 @@
     In this scenario the liquidity is out of range for both Alice and Bob, but
     is in rage for Carlos. 
   title: Earning Fees
+- key: conclusion-40
+  shortTitle: Conclusion
+  details: >-
+    When creating a position in a Concentrated Liquidity Automated Market Maker
+    (AMM) like Uniswap V3, there are several key points to keep in mind to
+    ensure an optimal strategy and manage risks effectively:
+
+
+    1. Token Pair: Select the token pair for which you want to provide
+    liquidity. It is crucial to understand the underlying assets, their price
+    movements, and their potential correlations.
+
+    2. Price Range: Define a price range for the liquidity provision. This range
+    determines at which prices your liquidity will be active. Choosing a
+    suitable range is essential to maximize your returns, as liquidity will only
+    be utilized and generate fees when the price is within this range.
+
+    3. Position Size: Consider the size of your liquidity provision based on
+    your risk tolerance, investment strategy, and the amount of capital you're
+    willing to allocate. Remember that larger positions may be subject to higher
+    impermanent loss risks.
+
+    4. Liquidity Provider (LP) Fees: Understand the fees associated with
+    providing liquidity. In Uniswap V3, the fees depend on the chosen fee tier
+    (0.05%, 0.30%, or 1.00%). Assess the trade-off between higher fees and
+    potential trading volume to optimize your returns.
+
+    5. Impermanent Loss: Be aware of the potential for impermanent loss, which
+    can occur when the price of the underlying assets changes relative to when
+    you deposited them. The concentrated nature of liquidity in Uniswap V3 can
+    lead to higher impermanent loss compared to other AMMs.
+
+    6. Active Management: Concentrated liquidity often requires more active
+    management than traditional AMMs. Monitor your position, and adjust the
+    price range or liquidity provision as needed to adapt to changing market
+    conditions.
+
+    7. Gas Fees: Keep in mind that interacting with smart contracts on the
+    Ethereum network incurs gas fees. These fees can vary depending on network
+    congestion and should be factored into your overall investment strategy.
+
+
+    By considering these points and conducting thorough research, you can create
+    an effective position in a concentrated liquidity AMM and manage your risks
+    accordingly.
+  title: Conclusion
