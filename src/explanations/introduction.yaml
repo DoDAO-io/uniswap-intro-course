@@ -219,3 +219,107 @@
     are always able to buy and sell the tokens they need.
 
   title: What are Liquidity Pool?
+- key: types-of-amms
+  shortTitle: Types of AMMs
+  details: >
+    There are several types of AMMs, each with their own unique features and
+    characteristics. In this answer, we'll explore the three most common types
+    of AMMs: Constant Product, Constant Sum, and Hybrid AMMs.
+
+
+    ### Constant Product AMM:
+
+    Constant Product AMMs, also known as Uniswap-style AMMs, are the most
+    popular type of AMM. In a constant product AMM, the product of the quantity
+    of two assets in a liquidity pool remains constant. For example, if a pool
+    contains 100 units of token A and 200 units of token B, the product of the
+    two is 20,000. When a user wants to trade one token for another, they
+    deposit one token into the pool and receive the other token in return,
+    causing the product of the pool to remain constant. The price of each token
+    is determined by the ratio of the number of tokens in the pool. If more
+    people buy token A, the price of token A will increase and the price of
+    token B will decrease, and vice versa. 
+
+    <div align="center">
+
+    <img style="max-height:400px;margin-bottom:30px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107381351_constant_product_amm.png"/>
+
+    </div>
+
+
+    ### Constant Sum AMM
+
+    In a constant sum AMM, the sum of the quantity of two assets in a liquidity
+    pool remains constant. When a user wants to trade one token for another,
+    they deposit one token into the pool and receive the other token in return.
+    The price of each token is determined by the ratio of the number of tokens
+    in the pool, as well as the sum of the tokens in the pool. Constant sum AMMs
+    are less popular than constant product AMMs, but they have been implemented
+    in several DEXs, such as Balancer and Shell Protocol.
+
+
+    <div align="center">
+
+    <img style="max-height:400px;margin-bottom:30px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107409699_constant_sum_amm.png"/>
+
+    </div>
+
+
+    ### Hybrid AMM
+
+    Hybrid AMMs combine features of both constant product and constant sum AMMs.
+    They allow liquidity providers to set the parameters of the pool, such as
+    the ratio of the two assets in the pool and the sum of the two assets in the
+    pool. The price of each token is determined by the ratio of the number of
+    tokens in the pool, as well as the sum of the tokens in the pool. Hybrid
+    AMMs are less common than constant product AMMs, but they have been
+    implemented in several DEXs, such as Curve and Bancor.
+
+
+    <div align="center">
+
+    <img style="max-height:400px;margin-bottom:30px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107429503_hybrid_amm.png"/>
+
+    </div>
+
+
+    ### Comparing
+
+
+    | Type of AMM      | Pros                                           |
+    Cons                                           |
+
+    | ---------------- | ---------------------------------------------- |
+    ---------------------------------------------- |
+
+    | Constant Product | - Simple and easy to use<br>- High liquidity   | -
+    Limited control over price<br>- High slippage |
+
+    |                  | - Less chances of impermanent
+    loss                           | - Limited
+    flexibility                           |
+
+    |                  | - Popular and widely used                      
+    |                                                |
+
+    | Constant Sum     | - More flexibility and control over price       | -
+    More complex and less intuitive               |
+
+    |                  | - Lower slippage                               | -
+    Potential for impermanent loss                |
+
+    |                  | - Can support multiple assets in one pool       | -
+    Less liquidity than constant product AMMs    |
+
+    | Hybrid           | - Combines the advantages of constant product and
+    constant sum AMMs    | - More complex and less intuitive               |
+
+    |                  |                          | - Potential for impermanent
+    loss                |
+
+    |                  | - More flexibility and control over price       | - May
+    have lower liquidity than constant product AMMs      |
+  title: Types of AMMs
