@@ -323,3 +323,22 @@
     |                  | - More flexibility and control over price       | - May
     have lower liquidity than constant product AMMs      |
   title: Types of AMMs
+- key: conclusion
+  shortTitle: Conclusion
+  details: >+
+    Cryptocurrencies are exchanged for various reasons, and traditionally,
+    assets are traded on centralized platforms through an order book. However,
+    an automated market maker (AMM) is a type of decentralized exchange that
+    allows traders to swap cryptocurrencies and other digital assets without the
+    need for an order book or intermediary. Instead, AMMs use a liquidity pool,
+    where traders can trade assets by swapping them with each other. The pool's
+    price is determined by a mathematical formula based on the ratio of tokens
+    in the pool, ensuring sufficient funds for trading. AMMs offer several
+    advantages, including always available prices, faster transactions, lower
+    fees, and reduced risks of price manipulation. However, the risk of
+    impermanent loss exists, where liquidity providers can incur losses if the
+    value of assets in the pool changes. There are several types of AMMs,
+    including constant product, constant sum, and hybrid AMMs, with unique
+    features and characteristics.
+
+  title: Conclusion
