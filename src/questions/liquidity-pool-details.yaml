@@ -1,0 +1,241 @@
+- uuid: 2a8220cc-2870-4f9b-8e17-967dd94efc7d
+  type: SingleChoice
+  content: In Uniswap v2, how is liquidity spread across the price range?
+  hint: 'NoHint'
+  explanation: >-
+    In Uniswap v2, liquidity is spread uniformly across the entire price range, from 0 to infinity. This means that liquidity is available for trading at all price levels.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Uniformly across the entire price range, from 0 to infinity
+      key: A
+    - content: Only at specific price points chosen by liquidity providers
+      key: B
+    - content: Based on the trading volume of the respective tokens
+      key: C
+    - content: Concentrated within custom price ranges specified by liquidity providers
+      key: D
+
+- uuid: 4c4d8464-7e53-4aa9-8c8c-e62c6b0a3411
+  type: SingleChoice
+  content: What is the main difference between Uniswap v2 and Uniswap v3 regarding liquidity provision?
+  hint: 'NoHint'
+  explanation: >-
+    The main difference between Uniswap v2 and Uniswap v3 is that in v3, liquidity providers can concentrate their liquidity within custom price ranges, which can lead to more efficient capital usage and potentially higher returns.
+  answerKeys:
+    - D
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Uniswap v3 has a higher trading volume than Uniswap v2
+      key: A
+    - content: Uniswap v3 supports more tokens than Uniswap v2
+      key: B
+    - content: Uniswap v3 has lower fees than Uniswap v2
+      key: C
+    - content: Uniswap v3 allows liquidity providers to concentrate their liquidity within custom price ranges
+      key: D
+
+- uuid: a5fdd690-7bbd-471f-8c1a-92e53df7beac
+  type: SingleChoice
+  content: In Uniswap v3, what is the advantage of concentrating liquidity within custom price ranges?
+  hint: 'NoHint'
+  explanation: >-
+    Concentrating liquidity within custom price ranges in Uniswap v3 can lead to more efficient capital usage and potentially higher returns for liquidity providers.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: It reduces the trading fees for users
+      key: A
+    - content: It can lead to more efficient capital usage and potentially higher returns for liquidity providers
+      key: B
+    - content: It simplifies the process of providing liquidity
+      key: C
+    - content: It guarantees the price stability of tokens in the pool
+      key: D
+
+## Step 2
+- uuid: 0f7d1c0e-5b1c-4f75-9f4c-8310a7e4f3a4
+  type: SingleChoice
+  content: What are real reserves in Uniswap V3?
+  hint: 'NoHint'
+  explanation: >-
+    Real reserves are the actual amounts of the two tokens held in a liquidity pool. When liquidity providers (LPs) add or remove liquidity, they directly affect the real reserves. The real reserves are used to calculate the exchange rate between the two tokens in a pool, following the constant product formula (x * y = k).
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The actual amounts of the two tokens held in a liquidity pool
+      key: A
+    - content: The liquidity available within a specific price range for trading
+      key: B
+    - content: The amounts of tokens that have been traded in a liquidity pool
+      key: C
+    - content: The amounts of tokens reserved for a specific user or trade
+      key: D
+
+- uuid: 889f7d53-1e63-4b8a-840a-d7d18d588c60
+  type: SingleChoice
+  content: What are virtual reserves in Uniswap V3?
+  hint: 'NoHint'
+  explanation: >-
+    Virtual reserves are a mathematical concept used to determine how much liquidity is available for trading within the current price range. They are not actual tokens held in the pool but rather a representation of the liquidity that is active within a specific price range. Virtual reserves help calculate the effective exchange rate and slippage for trades within the given range.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The actual amounts of the two tokens held in a liquidity pool
+      key: A
+    - content: A representation of the liquidity that is active within a specific price range
+      key: B
+    - content: The amounts of tokens that have been traded in a liquidity pool
+      key: C
+    - content: The amounts of tokens reserved for a specific user or trade
+      key: D
+
+- uuid: d0e0a3f3-3a25-4d4e-8db4-4e70f9f34c9a
+  type: SingleChoice
+  content: In Uniswap V3, what are virtual reserves used for?
+  hint: 'NoHint'
+  explanation: >-
+    In Uniswap V3, virtual reserves are used to determine how much liquidity is available for trading within the current price range. They help calculate the effective exchange rate and slippage for trades within the given range.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: To calculate the total amount of tokens in a liquidity pool
+      key: A
+    - content: To determine the fees earned by liquidity providers
+      key: B
+    - content: To calculate the effective exchange rate and slippage for trades within a given price range
+      key: C
+    - content: To reserve tokens for specific users or trades
+      key: D
+## Step 3
+- uuid: 3052877a-77b4-4b2a-a3e4-7cbf4c86be0f
+  type: SingleChoice
+  content: What is a tick in Uniswap V3?
+  hint: 'NoHint'
+  explanation: >-
+    In Uniswap V3, a tick is a discrete value that represents a specific price point within the price range of a liquidity pool. Ticks are used to divide the price range into equally sized intervals, and they help determine how liquidity is distributed across the pool.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: A discrete value representing a specific price point within a liquidity pool's price range
+      key: A
+    - content: The amount of liquidity provided at a specific price point
+      key: B
+    - content: The fee earned by liquidity providers for trades within a specific price range
+      key: C
+    - content: The volume of trades occurring within a specific price range
+      key: D
+
+- uuid: d0b8e080-41c6-47d1-8db6-8aa6e3e6b0e0
+  type: SingleChoice
+  content: How is the price at a given tick determined in Uniswap V3?
+  hint: 'NoHint'
+  explanation: >-
+    In Uniswap V3, the price at a given tick is determined by the formula: price = 1.0001^(tick index).
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: price = (tick index) * 1.0001
+      key: A
+    - content: price = 1.0001^(tick index)
+      key: B
+    - content: price = (tick index) / 1.0001
+      key: C
+    - content: price = 1.0001 / (tick index)
+      key: D
+
+- uuid: 1e3395dd-d2c3-44b1-9370-df15628f5cd3
+  type: SingleChoice
+  content: What is tick spacing in Uniswap V3?
+  hint: 'NoHint'
+  explanation: >-
+    Tick spacing is the difference between two adjacent tick indexes in Uniswap V3. The tick spacing depends on the liquidity pool's fee tier, and it can be 10, 60, or 200. This means that liquidity providers (LPs) can only add or remove liquidity at price levels that correspond to the tick spacing.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The distance between ticks in terms of price
+      key: A
+    - content: The number of ticks between the current price and the next price level
+      key: B
+    - content: The difference between two adjacent tick indexes
+      key: C
+    - content: The percentage of the price range covered by a single tick
+      key: D
+
+## Step 4
+- uuid: 84d0a41a-9f45-44e7-b6b5-6d62f6e2f6cd
+  type: SingleChoice
+  content: How is the price of token-0 in terms of token-1 calculated in Uniswap V3?
+  hint: 'NoHint'
+  explanation: >-
+    The price of token-0 in terms of token-1 is calculated using the constant product formula, where X * Y = k. X represents the amount of token-0 in the pool, and Y represents the amount of token-1 in the pool.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Using the constant product formula, where X * Y = k
+      key: A
+    - content: Using the constant sum formula, where X + Y = k
+      key: B
+    - content: Using the constant difference formula, where X - Y = k
+      key: C
+    - content: Using the constant quotient formula, where X / Y = k
+      key: D
+
+- uuid: 5e5e5a5d-018d-4e5a-a7f4-23e4cc4c4d4b
+  type: SingleChoice
+  content: What happens to the price of token-0 in terms of token-1 when traders buy token-0?
+  hint: 'NoHint'
+  explanation: >-
+    When traders buy token-0, the amount of token-0 (X) in the pool decreases while the amount of token-1 (Y) increases. As a result, the price of token-0 in terms of token-1 will increase, following the constant product formula.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The price of token-0 remains constant
+      key: A
+    - content: The price of token-0 increases
+      key: B
+    - content: The price of token-0 decreases
+      key: C
+    - content: The price of token-0 becomes volatile
+      key: D
+
+- uuid: 5d04c5b5-36a2-4e90-9f88-7f1a2e1f5485
+  type: SingleChoice
+  content: What is the shape of the price graph in Uniswap V3?
+  hint: 'NoHint'
+  explanation: >-
+    In Uniswap V3, the price graph will not be a smooth curve but rather a series of connected line segments corresponding to the different liquidity positions within the specified price ranges. However, the overall trend in the price graph will still follow the behavior described in each scenario.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: A smooth curve
+      key: A
+    - content: A straight line
+      key: B
+    - content: A series of connected line segments
+      key: C
+    - content: A scatter plot
+      key: D

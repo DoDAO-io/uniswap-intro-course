@@ -1,0 +1,66 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Adding Liquidity
+ 
+ **Select Pair**        
+Uniswap V3 enables Liquidity Providers to concentrate their capital within specific price ranges, allowing them to provide more liquidity at preferred prices. Unlike Uniswap V2, which required all users to provide liquidity across the entire price curve from 0 to infinity, Uniswap V3 allows LPs to selectively allocate capital within the price range they anticipate to yield the highest return.
+
+This tutorial will guide you through the process of providing liquidity using the Uniswap application.
+
+## Select Pair
+To start, you need to choose which token pair you want to supply as liquidity.
+
+While any pair of ERC-20 tokens is acceptable, each pair has distinct qualities. It would be helpful to evaluate aspects such as Total Value Locked (TVL), trading volume, and the possibility of price divergence between these tokens in the future.
+
+You can access relevant information about frequently traded token pairs on [Uniswap Info](https://info.uniswap.org/#/pools)
+
+<div align="center">
+<img style="max-height:600px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png"/>
+</div> 
+ **Select Fee**        
+After selecting a token pair, the next step is to choose the appropriate fee tier. Uniswap V3 offers three fee tiers for each pair:
+
+1. 0.01% fee tier: suitable for stablecoin pairs with minimal price risk and fees.
+2. 0.05% fee tier: suitable for stabler pairs.
+3. 0.30% fee tier: best for less correlated token pairs that are more exposed to significant price movements.
+4. 1.00% fee tier: designed for exotic assets that are highly prone to price volatility.
+The app will automatically choose the fee tier with the most liquidity, which is typically the consensus fee tier. In most cases, LPs align around one fee tier for a pair. For instance, the 0.3% tier has 82% of all ETH/USDC liquidity.
+
+If you're new to LP-ing, it's recommended to use the auto-selected fee tier. Nonetheless, advanced strategies might find it valuable to provide liquidity in the other fee tiers. Keep in mind that LPs who pick a non-consensus fee tier might be using a complex approach to counter certain risks. It's important to do your own research and proceed with caution when evaluating other fee tiers.
+
+<div align="center">
+<img style="max-height:600px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175799696_select_fees_2.png"/>
+</div>
+ 
+ **Select Range**        
+To provide liquidity in Uniswap V3, you need to select a specific price range. It's important to consider the potential price movements of the assets and your willingness to actively manage the position as the market changes. If the price moves beyond the specified range, your position will be concentrated in one asset and won't earn trading fees until it returns to the range. You can also choose to provide liquidity across the full range, but the rate of return will be lower. Tools like the [defi-lab.xyz](https://defi-lab.xyz/) and [uniswap.fish](https://uniswap.fish/) can help evaluate the price range, but they are not audited by Uniswap Labs and may not be entirely accurate.
+
+<div align="center">
+<img style="max-height:600px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682176838834_select_range_3.png"/>
+</div>
+ 
+ **Select Amount**        
+Once you have chosen your pair, fee tier, and price range, you can determine the amount of capital to invest in the position. Simply enter a value in one of the "Deposit Amounts" boxes, and the corresponding amount in the other box will automatically appear.
+
+The ratio between the two amounts depends on where your price range falls in relation to the market price. If your price range is skewed towards one side of the market price, you will provide more of that particular asset. This doesn't necessarily have to be a 50/50 split, as some strategies may prefer a different ratio.
+
+You can adjust the ratio by moving the price range left or right on the chart, or by dragging the minimum or maximum price boundary. The deposit amount you enter will remain constant, while the amount of the second asset will adjust based on the new ratio and price range.
+
+If your chosen price range doesn't include the current market price, you only need to provide one asset instead of both.
+
+<div align="center">
+<img style="max-height:600px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682191211191_select_amount_04.png"/>
+</div> 
+ **Approve Transaction**        
+When you are prepared to proceed, you can submit the transaction. Before doing so, you may have to authorize the Uniswap v3 router contract to use tokens on your behalf, but this is only necessary the initial time you provide liquidity using a token.
+
+After the approval transaction is confirmed, you can preview the transaction, examine the details, and then click on "Add" to initiate the transaction in your wallet.
+
+<div align="center">
+<img style="max-height:600px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682192299983_approve_transaction_4.png"/>
+</div>
+ 
+ 

@@ -84,6 +84,7 @@ topics:
 
 
     explanations: liquidity-pool-details.yaml
+    questions: liquidity-pool-details.yaml
   - key: adding-liquidity
     title: Adding Liquidity
     details: >+
