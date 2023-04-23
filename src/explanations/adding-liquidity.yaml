@@ -130,3 +130,24 @@
 
     </div>
   title: Select Amount
+- key: approve-transaction
+  shortTitle: Approve Transaction
+  details: >
+    When you are prepared to proceed, you can submit the transaction. Before
+    doing so, you may have to authorize the Uniswap v3 router contract to use
+    tokens on your behalf, but this is only necessary the initial time you
+    provide liquidity using a token.
+
+
+    After the approval transaction is confirmed, you can preview the
+    transaction, examine the details, and then click on "Add" to initiate the
+    transaction in your wallet.
+
+
+    <div align="center">
+
+    <img style="max-height:600px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682192299983_approve_transaction_4.png"/>
+
+    </div>
+  title: Approve Transaction
