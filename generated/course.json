@@ -10,7 +10,7 @@
     "Concentrated Liquidity",
     "Create position on Uniswap V3."
   ],
-  "publishStatus": "Draft",
+  "publishStatus": "Live",
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/DoDAO_Course_Template/1682154637786_intro_to_uniswap.png",
   "courseAdmins": [],
   "coursePassContent": "Pass content of Course !!!!!!!!!!",
@@ -1650,5 +1650,6 @@
       "readings": [],
       "summaries": []
     }
-  ]
+  ],
+  "priority": 50
 }
