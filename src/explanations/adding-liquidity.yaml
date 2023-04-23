@@ -1,0 +1,38 @@
+- key: select-pair
+  title: Select Pair
+  shortTitle: Select Pair
+  details: >-
+    Uniswap V3 enables Liquidity Providers to concentrate their capital within
+    specific price ranges, allowing them to provide more liquidity at preferred
+    prices. Unlike Uniswap V2, which required all users to provide liquidity
+    across the entire price curve from 0 to infinity, Uniswap V3 allows LPs to
+    selectively allocate capital within the price range they anticipate to yield
+    the highest return.
+
+
+    This tutorial will guide you through the process of providing liquidity
+    using the Uniswap application.
+
+
+    ## Select Pair
+
+    To start, you need to choose which token pair you want to supply as
+    liquidity.
+
+
+    While any pair of ERC-20 tokens is acceptable, each pair has distinct
+    qualities. It would be helpful to evaluate aspects such as Total Value
+    Locked (TVL), trading volume, and the possibility of price divergence
+    between these tokens in the future.
+
+
+    You can access relevant information about frequently traded token pairs on
+    [Uniswap Info](https://info.uniswap.org/#/pools)
+
+
+    <div align="center">
+
+    <img style="max-height:600px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png"/>
+
+    </div>
