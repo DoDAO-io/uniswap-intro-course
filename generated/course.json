@@ -822,7 +822,14 @@
       "key": "impermanent-loss",
       "details": "Impermanent loss is a temporary loss of value that liquidity providers (LPs) can experience when participating in decentralized finance (DeFi) platforms, specifically in automated market-making (AMM) pools. It occurs when the relative prices of the assets in the pool change compared to the initial ratio at which they were deposited. As the AMM algorithm constantly rebalances the pool to maintain the desired ratio, LPs may end up holding a less valuable combination of assets than if they had held the original assets individually. The loss is considered \"impermanent\" because it can be mitigated or reversed if the relative prices of the assets return to their initial levels before the LPs withdraw their funds from the pool. However, if the prices don't revert, the loss becomes permanent upon withdrawal.",
       "order": 2,
-      "explanations": [],
+      "explanations": [
+        {
+          "key": "what-is-impermanent-loss",
+          "shortTitle": "What is IL?",
+          "details": "### What is Impermanent Loss?\n\nImpermanent loss is a phenomenon experienced by liquidity providers in automated market makers (AMMs) when the value of their deposited assets changes compared to the initial deposit. This change in value can cause the provider's share of the pool to be worth less than if they had held the assets separately. Impermanent loss is influenced by the degree of price divergence between the assets in the pool and can be either temporary or permanent. Although it exposes liquidity providers to potential losses, trading fees can counteract the impact of impermanent loss, making it profitable to provide liquidity under various conditions.\n\n\n### How Does It Occur?\nImpermanent loss occurs when liquidity providers deposit assets into an AMM's liquidity pool, and the prices of those assets change relative to each other. AMMs do not automatically adjust their prices based on external markets; they rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices. During this process, arbitrageurs extract profits, which come at the expense of liquidity providers, resulting in impermanent loss. If the relative prices of tokens in the AMM return to their original state, the impermanent loss disappears, and liquidity providers earn trading fees. However, if the prices do not return to their original levels, impermanent loss can become permanent, reducing the providers' overall returns.\n\n### Video\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8XJ1MSTEuU0?start=21\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n</div>",
+          "title": "What is Impermanent Loss?"
+        }
+      ],
       "questions": [],
       "readings": [],
       "summaries": []

@@ -60,6 +60,7 @@ topics:
       return to their initial levels before the LPs withdraw their funds from
       the pool. However, if the prices don't revert, the loss becomes permanent
       upon withdrawal.
+    explanations: impermanent-loss.yaml
   - key: liquidity-pool-details
     title: Liquidity Pool Details
     details: >+
