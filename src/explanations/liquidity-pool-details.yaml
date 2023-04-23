@@ -193,3 +193,72 @@
     earn fees proportional to the amount of liquidity provided and the volume of
     trades occurring within this range.
   title: What is a Tick?
+- key: price-graph-with-ticks
+  shortTitle: Price Graph & Ticks
+  details: >
+    ### Price Graph with Ticks
+
+    In Uniswap V3, the price graph represents the relationship between two
+    tokens in a liquidity pool, token-0 and token-1. The amount of token-0 in
+    the pool is denoted as X, and the amount of token-1 in the pool is denoted
+    as Y. The price of token-0 in terms of token-1 is calculated using the
+    constant product formula, where X * Y = k.
+
+
+    <div align="center">
+
+    <img style="max-height:400px;margin-bottom:30px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1682099529192_08_graphs_with_tciks_0.png"/>
+
+    </div>
+
+
+
+
+    ### When traders buy "token-0"
+
+    In this scenario, as token-0 is slowly exchanged for token-1, the amount of
+    token-0 (X) in the pool decreases while the amount of token-1 (Y) increases.
+    As a result, the price of token-0 in terms of token-1 will increase,
+    following the constant product formula (since X is decreasing and Y is
+    increasing, k remains constant). The price graph will show an upward curve,
+    indicating a rising price for token-0 as the available supply decreases.
+
+
+
+    <div align="center">
+
+    <img style="max-height:400px;margin-bottom:30px" 
+     src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1682099557308_08_graphs_with_tciks_1.png" />
+    </div>
+
+
+
+    ### When traders buy "token-1"
+
+
+    In this scenario, as token-1 is slowly exchanged for token-0, the amount of
+    token-1 (Y) in the pool decreases while the amount of token-0 (X) increases.
+    As a result, the price of token-0 in terms of token-1 will decrease,
+    following the constant product formula (since X is increasing and Y is
+    decreasing, k remains constant). The price graph will show a downward curve,
+    indicating a falling price for token-0 as the available supply increases.
+
+
+    <div align="center">
+
+    <img style="max-height:400px;margin-bottom:30px" 
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1682099579132_08_graphs_with_tciks_2.png"
+    />
+
+    </div>
+
+
+    It is important to note that in Uniswap V3, liquidity is concentrated within
+    specific price ranges determined by ticks, and liquidity providers can earn
+    fees only when the price is within their specified range. This means that
+    the price graph will not be a smooth curve but rather a series of connected
+    line segments corresponding to the different liquidity positions within the
+    specified price ranges. However, the overall trend in the price graph will
+    still follow the behavior described in each scenario.
+  title: Price Graph with Ticks
