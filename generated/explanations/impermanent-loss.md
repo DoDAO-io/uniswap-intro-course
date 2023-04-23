@@ -1,0 +1,71 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Impermanent Loss
+ 
+ **What is Impermanent Loss? **        
+### What is Impermanent Loss?
+
+Impermanent loss is a phenomenon experienced by liquidity providers in automated market makers (AMMs) when the value of their deposited assets changes compared to the initial deposit. This change in value can cause the provider's share of the pool to be worth less than if they had held the assets separately. Impermanent loss is influenced by the degree of price divergence between the assets in the pool and can be either temporary or permanent. Although it exposes liquidity providers to potential losses, trading fees can counteract the impact of impermanent loss, making it profitable to provide liquidity under various conditions.
+
+
+### How Does It Occur?
+Impermanent loss occurs when liquidity providers deposit assets into an AMM's liquidity pool, and the prices of those assets change relative to each other. AMMs do not automatically adjust their prices based on external markets; they rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices. During this process, arbitrageurs extract profits, which come at the expense of liquidity providers, resulting in impermanent loss. If the relative prices of tokens in the AMM return to their original state, the impermanent loss disappears, and liquidity providers earn trading fees. However, if the prices do not return to their original levels, impermanent loss can become permanent, reducing the providers' overall returns.
+
+### Video
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8XJ1MSTEuU0?start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div> 
+ **Example of Impermanent Loss**        
+Let's consider an example of two friends, Alice and Bob, who each have $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH pool, while Bob decides to hold on to his ETH. Let's assume that at the time of deposit, 1 ETH is worth $2,000, and Alice has 5 ETH and $5,000 in USDC.
+
+Alice adds her assets to the USDC-ETH liquidity pool, depositing 5 ETH and $5,000 USDC. The pool now has a 50:50 ratio of USDC to ETH.
+
+Bob, on the other hand, keeps his 5 ETH and doesn't participate in the liquidity pool.
+
+Now, let's say the price of ETH increases to $4,000. At this point, Bob's 5 ETH is now worth $20,000, a 100% increase in value.
+
+In the liquidity pool, arbitrageurs will take advantage of the price difference by trading USDC for ETH. This will result in the pool holding more USDC and less ETH. Let's assume that after the arbitrage activity, the pool has a new balance of 4 ETH and $11,000 USDC.
+
+Since Alice contributed 50% of the pool's liquidity, her share of the assets in the pool is now 2 ETH (worth $8,000) and $5,500 USDC, for a total value of $13,500. This is an increase of 35% compared to her initial deposit.
+
+<div align="center">
+<img src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg" />
+</div>
+
+In this example, Alice experiences impermanent loss due to the change in the value of ETH relative to USDC. If Alice had held onto her 5 ETH like Bob, her assets would now be worth $20,000, a 100% increase.
+
+Impermanent loss is the difference between the value of the assets if Alice had held them separately and the value of her share in the liquidity pool. In this case, Alice's impermanent loss is $20,000 (the value if she had held her assets) - $13,500 (the value of her share in the liquidity pool) = $6,500.
+
+ 
+ **Factors impacting Impermanent Loss**        
+### Impermanent Loss Maths
+Here we take the example of Uniswap V2 as the maths is much easier to understand.
+
+<div align="center">
+<img src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681851459517_impermanent_loss.png" />
+</div>
+
+### Factors Impacting Impermanent Loss 
+
+The factors that impact impermanent loss are:
+
+1. **Price volatility**: The greater the price volatility of the assets in a liquidity pool, the higher the potential for impermanent loss. As the prices of the assets in the pool diverge, the value of the LP's position can become less than if they had simply held onto the assets.
+
+2. **Asset correlation**: The degree to which the assets in the liquidity pool are correlated can also impact impermanent loss. If the assets are positively correlated, their prices will generally move in the same direction, potentially reducing impermanent loss. However, if the assets are negatively correlated or have no correlation, their prices may diverge more, increasing the risk of impermanent loss.
+
+3. **Time in the pool**: The duration for which a liquidity provider keeps their assets in the pool can impact impermanent loss. Generally, the longer an LP's assets stay in the pool, the greater the chance that the assets' prices will diverge, leading to impermanent loss. However, it's essential to note that impermanent loss can also be mitigated over time as fees earned from the pool can offset the loss.
+
+ 
+ **How to reduce Impermanent Loss?**        
+Although impermanent loss is inevitable. However, there are measures that can be taken to mitigate this risk. They are discussed below:
+
+1. **Use concentrated liquidity pools**: Uniswap V3 offers concentrated liquidity pools where LPs can specify a price range for their assets. By setting a narrower price range, LPs can limit their exposure to impermanent loss, although they may not earn fees if the trading pair's price moves outside the specified range.
+2. **Choose less volatile token pairs**: By providing liquidity to pairs with lower price volatility, such as stablecoin pairs, LPs can minimize the potential for impermanent loss due to their lower price fluctuations.
+3. **Monitor the market and adjust your strategy accordingly**: Keeping an eye on market conditions and adjusting your strategy as needed can help reduce the risk of experiencing impermanent loss on Uniswap V3.
+4. **Utilize risk management tools**: Some DeFi platforms offer risk management tools that allow you to set limits on your trades or automatically adjust your positions to minimize the risk of loss. These tools can also be helpful when trading on Uniswap V3. **It is important to be aware of the security risks associated with using third party tools.**
+
+It is important to note that impermanent loss is only "realized" when a liquidity provider withdraws their assets from the pool. If the prices of the assets return to their initial levels before withdrawal, the impermanent loss is effectively negated. 
+ 

@@ -12,3 +12,4 @@ Impermanent loss is a temporary loss of value that liquidity providers (LPs) can
 
 
 
+[Questions](./../../generated/questions/impermanent-loss.md)

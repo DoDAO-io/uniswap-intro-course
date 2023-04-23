@@ -831,9 +831,9 @@
         },
         {
           "key": "example-of-impermanent-loss",
+          "title": "Example of Impermanent Loss",
           "shortTitle": "Example",
-          "details": "Let's consider an example of two friends, Alice and Bob, who each have $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH pool, while Bob decides to hold on to his ETH. Let's assume that at the time of deposit, 1 ETH is worth $2,000, and Alice has 5 ETH and $5,000 in USDC.\n\nAlice adds her assets to the USDC-ETH liquidity pool, depositing 5 ETH and $5,000 USDC. The pool now has a 50:50 ratio of USDC to ETH.\n\nBob, on the other hand, keeps his 5 ETH and doesn't participate in the liquidity pool.\n\nNow, let's say the price of ETH increases to $4,000. At this point, Bob's 5 ETH is now worth $20,000, a 100% increase in value.\n\nIn the liquidity pool, arbitrageurs will take advantage of the price difference by trading USDC for ETH. This will result in the pool holding more USDC and less ETH. Let's assume that after the arbitrage activity, the pool has a new balance of 4 ETH and $11,000 USDC.\n\nSince Alice contributed 50% of the pool's liquidity, her share of the assets in the pool is now 2 ETH (worth $8,000) and $5,500 USDC, for a total value of $13,500. This is an increase of 35% compared to her initial deposit.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg\" />\n</div>\n\nIn this example, Alice experiences impermanent loss due to the change in the value of ETH relative to USDC. If Alice had held onto her 5 ETH like Bob, her assets would now be worth $20,000, a 100% increase.\n\nImpermanent loss is the difference between the value of the assets if Alice had held them separately and the value of her share in the liquidity pool. In this case, Alice's impermanent loss is $20,000 (the value if she had held her assets) - $13,500 (the value of her share in the liquidity pool) = $6,500.\n\n",
-          "title": "Example of Impermanent Loss"
+          "details": "Let's consider an example of two friends, Alice and Bob, who each have $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH pool, while Bob decides to hold on to his ETH. Let's assume that at the time of deposit, 1 ETH is worth $2,000, and Alice has 5 ETH and $5,000 in USDC.\n\nAlice adds her assets to the USDC-ETH liquidity pool, depositing 5 ETH and $5,000 USDC. The pool now has a 50:50 ratio of USDC to ETH.\n\nBob, on the other hand, keeps his 5 ETH and doesn't participate in the liquidity pool.\n\nNow, let's say the price of ETH increases to $4,000. At this point, Bob's 5 ETH is now worth $20,000, a 100% increase in value.\n\nIn the liquidity pool, arbitrageurs will take advantage of the price difference by trading USDC for ETH. This will result in the pool holding more USDC and less ETH. Let's assume that after the arbitrage activity, the pool has a new balance of 4 ETH and $11,000 USDC.\n\nSince Alice contributed 50% of the pool's liquidity, her share of the assets in the pool is now 2 ETH (worth $8,000) and $5,500 USDC, for a total value of $13,500. This is an increase of 35% compared to her initial deposit.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg\" />\n</div>\n\nIn this example, Alice experiences impermanent loss due to the change in the value of ETH relative to USDC. If Alice had held onto her 5 ETH like Bob, her assets would now be worth $20,000, a 100% increase.\n\nImpermanent loss is the difference between the value of the assets if Alice had held them separately and the value of her share in the liquidity pool. In this case, Alice's impermanent loss is $20,000 (the value if she had held her assets) - $13,500 (the value of her share in the liquidity pool) = $6,500.\n\n"
         },
         {
           "key": "factors-impacting-impermanent-loss",
@@ -848,7 +848,368 @@
           "title": "How to reduce Impermanent Loss?"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "f9e6dfca-0e53-4da0-8c90-6ee0bfe5a1b5",
+          "type": "SingleChoice",
+          "content": "What is impermanent loss?",
+          "hint": "NoHint",
+          "explanation": "Impermanent loss is a phenomenon experienced by liquidity providers in AMMs when the value of their deposited assets changes compared to the initial deposit, causing the provider's share of the pool to be worth less than if they had held the assets separately.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "A phenomenon experienced by liquidity providers in AMMs when the value of their deposited assets changes compared to the initial deposit",
+              "key": "A"
+            },
+            {
+              "content": "The change in value of assets held separately from a liquidity pool",
+              "key": "B"
+            },
+            {
+              "content": "The profit made by arbitrageurs when adjusting AMM's prices",
+              "key": "C"
+            },
+            {
+              "content": "The trading fees earned by liquidity providers in a liquidity pool",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "705c8aa7-d4e4-4c7f-a6e8-e6e9a6a33f99",
+          "type": "SingleChoice",
+          "content": "What causes impermanent loss to occur?",
+          "hint": "NoHint",
+          "explanation": "Impermanent loss occurs when liquidity providers deposit assets into an AMM's liquidity pool, and the prices of those assets change relative to each other. Arbitrageurs extract profits during the price adjustment process, which come at the expense of liquidity providers, resulting in impermanent loss.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The change in value of assets held separately from a liquidity pool",
+              "key": "A"
+            },
+            {
+              "content": "The trading fees earned by liquidity providers in a liquidity pool",
+              "key": "B"
+            },
+            {
+              "content": "The change in prices of assets deposited in an AMM's liquidity pool relative to each other",
+              "key": "C"
+            },
+            {
+              "content": "The profits made by arbitrageurs when adjusting AMM's prices",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "62a1a8aa-a7e2-47f4-b6f4-0c0d6ebad26e",
+          "type": "SingleChoice",
+          "content": "How do AMMs adjust their prices based on external markets?",
+          "hint": "NoHint",
+          "explanation": "AMMs do not automatically adjust their prices based on external markets; they rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "AMMs adjust their prices automatically based on external markets",
+              "key": "A"
+            },
+            {
+              "content": "AMMs rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices",
+              "key": "B"
+            },
+            {
+              "content": "AMMs adjust their prices based on the trading fees collected",
+              "key": "C"
+            },
+            {
+              "content": "AMMs adjust their prices based on the total value of the liquidity pool",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "31db3e3b-16f6-4e87-ae0e-7f9b9c0d2b4a",
+          "type": "SingleChoice",
+          "content": "What happens when the price of an asset in a liquidity pool changes?",
+          "hint": "NoHint",
+          "explanation": "When the price of an asset in a liquidity pool changes, arbitrageurs take advantage of the price difference by trading the relatively cheaper asset for the more expensive one. This results in the pool holding more of the cheaper asset and less of the more expensive one.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Arbitrageurs trade the cheaper asset for the more expensive one, changing the pool's balance",
+              "key": "A"
+            },
+            {
+              "content": "The total value of the liquidity pool remains constant",
+              "key": "B"
+            },
+            {
+              "content": "The price change has no effect on the pool's balance",
+              "key": "C"
+            },
+            {
+              "content": "Liquidity providers receive the difference in price as a bonus",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5f6e3b84-3d5a-41f9-b34c-5c2b5f8d7c56",
+          "type": "SingleChoice",
+          "content": "What is the impermanent loss in the given example for Alice?",
+          "hint": "NoHint",
+          "explanation": "Impermanent loss is the difference between the value of the assets if held separately and the value of the share in the liquidity pool. In the example, Alice's impermanent loss is $20,000 (value if held separately) - $13,500 (value of her share in the liquidity pool) = $6,500.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "$5,000",
+              "key": "A"
+            },
+            {
+              "content": "$7,500",
+              "key": "B"
+            },
+            {
+              "content": "$5,500",
+              "key": "C"
+            },
+            {
+              "content": "$6,500",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "4f7d4f4c-4f4b-4fe7-a7f4-ea9338db953d",
+          "type": "SingleChoice",
+          "content": "What would have happened if Alice held onto her 5 ETH like Bob did?",
+          "hint": "NoHint",
+          "explanation": "If Alice had held onto her 5 ETH like Bob, her assets would now be worth $20,000, a 100% increase in value, as the price of ETH increased to $4,000.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Her assets would still be worth $10,000",
+              "key": "A"
+            },
+            {
+              "content": "Her assets would be worth $15,000",
+              "key": "B"
+            },
+            {
+              "content": "Her assets would be worth $20,000, a 100% increase in value",
+              "key": "C"
+            },
+            {
+              "content": "Her assets would be worth $13,500, a 35% increase in value",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "89c31863-4167-475a-bd2d-2e1a9c5f22e5",
+          "type": "SingleChoice",
+          "content": "What factor is likely to increase the risk of impermanent loss in a liquidity pool?",
+          "hint": "NoHint",
+          "explanation": "The greater the price volatility of the assets in a liquidity pool, the higher the potential for impermanent loss. As the prices of the assets in the pool diverge, the value of the LP's position can become less than if they had simply held onto the assets.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "High price volatility of the assets",
+              "key": "A"
+            },
+            {
+              "content": "Stable price of the assets",
+              "key": "B"
+            },
+            {
+              "content": "Positive correlation between the assets",
+              "key": "C"
+            },
+            {
+              "content": "Short duration of assets in the pool",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2a68da56-12da-4b7a-8d53-2c37a9a6c0b6",
+          "type": "SingleChoice",
+          "content": "How does asset correlation impact impermanent loss in a liquidity pool?",
+          "hint": "NoHint",
+          "explanation": "If the assets in the liquidity pool are positively correlated, their prices will generally move in the same direction, potentially reducing impermanent loss. However, if the assets are negatively correlated or have no correlation, their prices may diverge more, increasing the risk of impermanent loss.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Positively correlated assets increase impermanent loss",
+              "key": "A"
+            },
+            {
+              "content": "Negatively correlated or uncorrelated assets increase impermanent loss",
+              "key": "B"
+            },
+            {
+              "content": "Correlation between assets has no impact on impermanent loss",
+              "key": "C"
+            },
+            {
+              "content": "Impermanent loss is only affected by the pool's duration",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "6d64d6f9-6b92-4b61-a6a2-6e8451daa1f6",
+          "type": "SingleChoice",
+          "content": "How does the duration of assets in the liquidity pool impact impermanent loss?",
+          "hint": "NoHint",
+          "explanation": "Generally, the longer an LP's assets stay in the pool, the greater the chance that the assets' prices will diverge, leading to impermanent loss. However, it's essential to note that impermanent loss can also be mitigated over time as fees earned from the pool can offset the loss.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Longer duration increases the chance of impermanent loss, but fees can offset it",
+              "key": "A"
+            },
+            {
+              "content": "Longer duration decreases the chance of impermanent loss",
+              "key": "B"
+            },
+            {
+              "content": "Duration has no impact on impermanent loss",
+              "key": "C"
+            },
+            {
+              "content": "Impermanent loss only occurs in the short term",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f25ce6a1-0de3-4f9f-af87-1b66d8c0a2a2",
+          "type": "SingleChoice",
+          "content": "How can concentrated liquidity pools help mitigate impermanent loss?",
+          "hint": "NoHint",
+          "explanation": "By setting a narrower price range in concentrated liquidity pools, LPs can limit their exposure to impermanent loss. However, they may not earn fees if the trading pair's price moves outside the specified range.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "By specifying a price range, limiting exposure to impermanent loss",
+              "key": "A"
+            },
+            {
+              "content": "By increasing the price volatility of the assets",
+              "key": "B"
+            },
+            {
+              "content": "By making the assets positively correlated",
+              "key": "C"
+            },
+            {
+              "content": "By offering higher fees for the liquidity providers",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "6de0f318-0b71-4759-8e19-6dcb72a17b0c",
+          "type": "SingleChoice",
+          "content": "How can selecting less volatile token pairs help mitigate impermanent loss?",
+          "hint": "NoHint",
+          "explanation": "By providing liquidity to pairs with lower price volatility, such as stablecoin pairs, LPs can minimize the potential for impermanent loss due to their lower price fluctuations.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "By increasing the price volatility of the assets",
+              "key": "A"
+            },
+            {
+              "content": "By increasing the correlation between the assets",
+              "key": "B"
+            },
+            {
+              "content": "By minimizing potential impermanent loss due to lower price fluctuations",
+              "key": "C"
+            },
+            {
+              "content": "By allowing LPs to withdraw assets more frequently",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8795c5f3-3e19-4a32-b2f9-6125e5d5a5a5",
+          "type": "SingleChoice",
+          "content": "When is impermanent loss \"realized\" by a liquidity provider?",
+          "hint": "NoHint",
+          "explanation": "Impermanent loss is only \"realized\" when a liquidity provider withdraws their assets from the pool. If the prices of the assets return to their initial levels before withdrawal, the impermanent loss is effectively negated.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "When the price of the assets in the pool changes",
+              "key": "A"
+            },
+            {
+              "content": "When a liquidity provider withdraws their assets from the pool",
+              "key": "B"
+            },
+            {
+              "content": "When the liquidity provider deposits their assets into the pool",
+              "key": "C"
+            },
+            {
+              "content": "When a new liquidity provider joins the pool",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     },
