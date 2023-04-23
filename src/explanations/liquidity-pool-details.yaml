@@ -145,3 +145,51 @@
     while virtual reserves represent the liquidity available within a specific
     price range for trading.
   title: Real Reserves Graph
+- key: what-is-a-tick
+  shortTitle: What is a Tick?
+  details: >
+    ### Ticks in Uniswap V3
+
+    In Uniswap V3, a tick is a discrete value that represents a specific price
+    point within the price range of a liquidity pool. Ticks are used to divide
+    the price range into equally sized intervals, and they help determine how
+    liquidity is distributed across the pool.
+
+
+    Each tick is associated with a unique tick index, which is an integer value.
+    The tick index can be positive, negative, or zero, and the relationship
+    between tick indexes and price is logarithmic. In Uniswap V3, the price at a
+    given tick is determined by the formula: price = 1.0001^(tick index).
+
+
+    An important concept related to ticks is the "tick spacing," which is the
+    difference between two adjacent tick indexes. The tick spacing depends on
+    the liquidity pool's fee tier, and it can be 10, 60, or 200. This means that
+    liquidity providers (LPs) can only add or remove liquidity at price levels
+    that correspond to the tick spacing.
+
+
+    ### Example
+
+    Let's consider a Uniswap V3 liquidity pool for the token pair ETH/DAI with a
+    tick spacing of 10. Suppose a liquidity provider wants to add liquidity
+    within the price range of 1000 DAI/ETH and 2000 DAI/ETH. To determine the
+    ticks for this range:
+
+
+    1. Calculate the tick index for the lower price bound (1000 DAI/ETH):
+
+    tick_lower = log(1000) / log(1.0001) ≈ 6909.57, rounded down to 6900
+    (nearest multiple of 10)
+
+    2. Calculate the tick index for the upper price bound (2000 DAI/ETH):
+
+    tick_upper = log(2000) / log(1.0001) ≈ 13819.14, rounded down to 13810
+    (nearest multiple of 10)
+
+
+    The liquidity provider would then add liquidity between tick 6900 and tick
+    13810. As the price moves between these ticks, the liquidity provider would
+    earn fees proportional to the amount of liquidity provided and the volume of
+    trades occurring within this range.
+  title: What is a Tick?
