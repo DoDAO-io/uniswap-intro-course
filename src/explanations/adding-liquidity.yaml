@@ -36,3 +36,42 @@
     src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png"/>
 
     </div>
+- key: select-fee
+  shortTitle: Select Fee
+  details: >
+    After selecting a token pair, the next step is to choose the appropriate fee
+    tier. Uniswap V3 offers three fee tiers for each pair:
+
+
+    1. 0.01% fee tier: suitable for stablecoin pairs with minimal price risk and
+    fees.
+
+    2. 0.05% fee tier: suitable for stabler pairs.
+
+    3. 0.30% fee tier: best for less correlated token pairs that are more
+    exposed to significant price movements.
+
+    4. 1.00% fee tier: designed for exotic assets that are highly prone to price
+    volatility.
+
+    The app will automatically choose the fee tier with the most liquidity,
+    which is typically the consensus fee tier. In most cases, LPs align around
+    one fee tier for a pair. For instance, the 0.3% tier has 82% of all ETH/USDC
+    liquidity.
+
+
+    If you're new to LP-ing, it's recommended to use the auto-selected fee tier.
+    Nonetheless, advanced strategies might find it valuable to provide liquidity
+    in the other fee tiers. Keep in mind that LPs who pick a non-consensus fee
+    tier might be using a complex approach to counter certain risks. It's
+    important to do your own research and proceed with caution when evaluating
+    other fee tiers.
+
+
+    <div align="center">
+
+    <img style="max-height:600px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175799696_select_fees_2.png"/>
+
+    </div>
+  title: Select Fee
