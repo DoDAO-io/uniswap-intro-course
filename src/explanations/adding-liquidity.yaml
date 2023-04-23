@@ -97,3 +97,36 @@
 
     </div>
   title: Select Range
+- key: select-amount
+  shortTitle: Select Amount
+  details: >-
+    Once you have chosen your pair, fee tier, and price range, you can determine
+    the amount of capital to invest in the position. Simply enter a value in one
+    of the "Deposit Amounts" boxes, and the corresponding amount in the other
+    box will automatically appear.
+
+
+    The ratio between the two amounts depends on where your price range falls in
+    relation to the market price. If your price range is skewed towards one side
+    of the market price, you will provide more of that particular asset. This
+    doesn't necessarily have to be a 50/50 split, as some strategies may prefer
+    a different ratio.
+
+
+    You can adjust the ratio by moving the price range left or right on the
+    chart, or by dragging the minimum or maximum price boundary. The deposit
+    amount you enter will remain constant, while the amount of the second asset
+    will adjust based on the new ratio and price range.
+
+
+    If your chosen price range doesn't include the current market price, you
+    only need to provide one asset instead of both.
+
+
+    <div align="center">
+
+    <img style="max-height:600px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682191211191_select_amount_04.png"/>
+
+    </div>
+  title: Select Amount
