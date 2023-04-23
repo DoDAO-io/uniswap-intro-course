@@ -262,25 +262,3 @@
     specified price ranges. However, the overall trend in the price graph will
     still follow the behavior described in each scenario.
   title: Price Graph with Ticks
-- key: select-range
-  shortTitle: Select Range
-  details: >
-    To provide liquidity in Uniswap V3, you need to select a specific price
-    range. It's important to consider the potential price movements of the
-    assets and your willingness to actively manage the position as the market
-    changes. If the price moves beyond the specified range, your position will
-    be concentrated in one asset and won't earn trading fees until it returns to
-    the range. You can also choose to provide liquidity across the full range,
-    but the rate of return will be lower. Tools like the
-    [defi-lab.xyz](https://defi-lab.xyz/) and
-    [uniswap.fish](https://uniswap.fish/) can help evaluate the price range, but
-    they are not audited by Uniswap Labs and may not be entirely accurate.
-
-
-    <div align="center">
-
-    <img style="max-height:600px"
-    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682176838834_select_range_3.png"/>
-
-    </div>
-  title: Select Range
