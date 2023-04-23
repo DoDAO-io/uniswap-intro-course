@@ -51,3 +51,48 @@
     her assets) - $13,500 (the value of her share in the liquidity pool) =
     $6,500.
 
+- key: what-is-impermanent-loss
+  shortTitle: What is IL?
+  details: >-
+    ### What is Impermanent Loss?
+
+
+    Impermanent loss is a phenomenon experienced by liquidity providers in
+    automated market makers (AMMs) when the value of their deposited assets
+    changes compared to the initial deposit. This change in value can cause the
+    provider's share of the pool to be worth less than if they had held the
+    assets separately. Impermanent loss is influenced by the degree of price
+    divergence between the assets in the pool and can be either temporary or
+    permanent. Although it exposes liquidity providers to potential losses,
+    trading fees can counteract the impact of impermanent loss, making it
+    profitable to provide liquidity under various conditions.
+
+
+
+    ### How Does It Occur?
+
+    Impermanent loss occurs when liquidity providers deposit assets into an
+    AMM's liquidity pool, and the prices of those assets change relative to each
+    other. AMMs do not automatically adjust their prices based on external
+    markets; they rely on arbitrageurs to buy underpriced assets or sell
+    overpriced assets until the AMM's prices match external market prices.
+    During this process, arbitrageurs extract profits, which come at the expense
+    of liquidity providers, resulting in impermanent loss. If the relative
+    prices of tokens in the AMM return to their original state, the impermanent
+    loss disappears, and liquidity providers earn trading fees. However, if the
+    prices do not return to their original levels, impermanent loss can become
+    permanent, reducing the providers' overall returns.
+
+
+    ### Video
+
+    <div align="center">
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/8XJ1MSTEuU0?start=21" title="YouTube
+    video player" frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+    </div>
+  title: 'What is Impermanent Loss? '
