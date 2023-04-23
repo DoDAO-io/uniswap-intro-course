@@ -58,3 +58,90 @@
 
 
 
+- key: real-reserves-graph
+  shortTitle: Real Reserves Graph
+  details: >-
+    ## Real and Virtual Reserves
+
+    In Uniswap V3, the concepts of real and virtual reserves are used to manage
+    liquidity within a pool. Let's break down these terms in simple words and
+    provide an example to illustrate their roles.
+
+
+    **Real reserves**: Real reserves are the actual amounts of the two tokens
+    held in a liquidity pool. When liquidity providers (LPs) add or remove
+    liquidity, they directly affect the real reserves. The real reserves are
+    used to calculate the exchange rate between the two tokens in a pool,
+    following the constant product formula (x * y = k).
+
+
+    **Virtual reserves**: Virtual reserves are a mathematical concept used to
+    determine how much liquidity is available for trading within the current
+    price range. They are not actual tokens held in the pool but rather a
+    representation of the liquidity that is active within a specific price
+    range. Virtual reserves help calculate the effective exchange rate and
+    slippage for trades within the given range.
+
+
+    <div align="center">
+
+    <img
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681926781696_09_real_reserves.png"
+    />
+
+    </div>
+
+
+    ### Example
+
+    Let's consider another example using the Uniswap V3 ETH/USDC pool. In this
+    case, we'll use specific real reserve amounts and simulate adding liquidity
+    within a certain price range.
+
+
+    Assume the ETH/USDC pool has the following real reserves:
+
+
+    ```
+
+    Real reserves: 50 ETH and 100,000 USDC (Initial Value)
+
+    ```
+
+    Now, a liquidity provider (LP) wants to add liquidity within the price range
+    of 1,800 USDC/ETH to 2,200 USDC/ETH. They decide to add 10 ETH and 20,000
+    USDC within this range.
+
+
+    After adding the liquidity, the pool's real reserves will be updated:
+
+
+    ```
+
+    Real reserves: 60 ETH (50 + 10) and 120,000 USDC (100,000 + 20,000)
+
+    ```
+
+
+    However, only the added liquidity by the LP falls within the specified price
+    range (1,800 to 2,200 USDC/ETH). Therefore:
+
+    ```
+
+    Virtual reserves: 10 ETH and 20,000 USDC (the liquidity active within the
+    price range)
+
+    ```
+
+    When a user wants to swap tokens within the 1,800 to 2,200 USDC/ETH price
+    range, the virtual reserves (10 ETH and 20,000 USDC) will be used to
+    determine the exchange rate and potential slippage for their trade. Trades
+    outside of this price range will not have access to the virtual reserves and
+    may experience higher slippage or fail due to lack of liquidity.
+
+
+    This example demonstrates the difference between real and virtual reserves
+    in Uniswap V3. Real reserves are the actual token amounts held in the pool,
+    while virtual reserves represent the liquidity available within a specific
+    price range for trading.
+  title: Real Reserves Graph
