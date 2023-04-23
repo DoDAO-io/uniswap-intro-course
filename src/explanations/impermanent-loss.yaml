@@ -96,3 +96,49 @@
     her assets) - $13,500 (the value of her share in the liquidity pool) =
     $6,500.
 
+- key: factors-impacting-impermanent-loss
+  shortTitle: Factors
+  details: >+
+    ### Impermanent Loss Maths
+
+    Here we take the example of Uniswap V2 as the maths is much easier to
+    understand.
+
+
+    <div align="center">
+
+    <img
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681851459517_impermanent_loss.png"
+    />
+
+    </div>
+
+
+    ### Factors Impacting Impermanent Loss 
+
+
+    The factors that impact impermanent loss are:
+
+
+    1. **Price volatility**: The greater the price volatility of the assets in a
+    liquidity pool, the higher the potential for impermanent loss. As the prices
+    of the assets in the pool diverge, the value of the LP's position can become
+    less than if they had simply held onto the assets.
+
+
+    2. **Asset correlation**: The degree to which the assets in the liquidity
+    pool are correlated can also impact impermanent loss. If the assets are
+    positively correlated, their prices will generally move in the same
+    direction, potentially reducing impermanent loss. However, if the assets are
+    negatively correlated or have no correlation, their prices may diverge more,
+    increasing the risk of impermanent loss.
+
+
+    3. **Time in the pool**: The duration for which a liquidity provider keeps
+    their assets in the pool can impact impermanent loss. Generally, the longer
+    an LP's assets stay in the pool, the greater the chance that the assets'
+    prices will diverge, leading to impermanent loss. However, it's essential to
+    note that impermanent loss can also be mitigated over time as fees earned
+    from the pool can offset the loss.
+
+  title: Factors impacting Impermanent Loss
