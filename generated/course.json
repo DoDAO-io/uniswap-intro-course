@@ -1265,6 +1265,12 @@
           "shortTitle": "Select Fee",
           "details": "After selecting a token pair, the next step is to choose the appropriate fee tier. Uniswap V3 offers three fee tiers for each pair:\n\n1. 0.01% fee tier: suitable for stablecoin pairs with minimal price risk and fees.\n2. 0.05% fee tier: suitable for stabler pairs.\n3. 0.30% fee tier: best for less correlated token pairs that are more exposed to significant price movements.\n4. 1.00% fee tier: designed for exotic assets that are highly prone to price volatility.\nThe app will automatically choose the fee tier with the most liquidity, which is typically the consensus fee tier. In most cases, LPs align around one fee tier for a pair. For instance, the 0.3% tier has 82% of all ETH/USDC liquidity.\n\nIf you're new to LP-ing, it's recommended to use the auto-selected fee tier. Nonetheless, advanced strategies might find it valuable to provide liquidity in the other fee tiers. Keep in mind that LPs who pick a non-consensus fee tier might be using a complex approach to counter certain risks. It's important to do your own research and proceed with caution when evaluating other fee tiers.\n\n<div align=\"center\">\n<img style=\"max-height:600px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175799696_select_fees_2.png\"/>\n</div>\n",
           "title": "Select Fee"
+        },
+        {
+          "key": "select-range",
+          "shortTitle": "Select Range",
+          "details": "To provide liquidity in Uniswap V3, you need to select a specific price range. It's important to consider the potential price movements of the assets and your willingness to actively manage the position as the market changes. If the price moves beyond the specified range, your position will be concentrated in one asset and won't earn trading fees until it returns to the range. You can also choose to provide liquidity across the full range, but the rate of return will be lower. Tools like the [defi-lab.xyz](https://defi-lab.xyz/) and [uniswap.fish](https://uniswap.fish/) can help evaluate the price range, but they are not audited by Uniswap Labs and may not be entirely accurate.\n\n<div align=\"center\">\n<img style=\"max-height:600px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682176838834_select_range_3.png\"/>\n</div>\n",
+          "title": "Select Range"
         }
       ],
       "questions": [],
