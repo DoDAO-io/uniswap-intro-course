@@ -2,6 +2,27 @@
   title: Collect Fees
   shortTitle: Collect Fees
   details: >
+    Liquidity providers (LPs) can earn fees in proportion to their share of the
+    liquidity pool. Here are the detailed steps on how to collect fees in the
+    Uniswap interface for Uniswap V3:
+
+
+    ### Step 1 - Select Pool
+
+    Once your wallet is connected, click on the "Pool" tab in the top navigation
+    bar. This will open the Pool management section. In the Pool management
+    section, you'll see a list of your active liquidity positions, if any. Each
+    position will show the token pair, the price range you've set, and the
+    liquidity you've provided.
+
+
+    ### Step 2 - Fees Section
+
+    On the position details page, you can see the fees you have accrued in both
+    tokens. This value will update in real-time as swaps occur within your price
+    range. To collect the fees, click on the "Collect" button. A new window will
+    appear, allowing you to choose the percentage of fees you want to collect. 
+
 
     <div align="center">
 
@@ -9,6 +30,14 @@
     src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682952846888_collect_fees_1.jpg"/>
 
     </div>
+
+
+    ### Step 3 - Confirm the transaction
+
+    After selecting the percentage of fees to collect, click on the "Collect"
+    button in the window. This will initiate the transaction. A confirmation
+    request will be sent to your connected wallet. Review the transaction
+    details and confirm the transaction by approving it in your wallet.
 
 
 
