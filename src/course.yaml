@@ -109,6 +109,7 @@ topics:
     details: >-
       This chapter explains the various operations that you can do on Uniswap
       website to manage or update your position
+    explanations: manage-position.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
