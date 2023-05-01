@@ -49,6 +49,15 @@
     </div>
 
 
+    <br/>
+
+    <br/>
+
+    <br/>
+
+    <br/>
+
+
     <div align="center">
 
     <img style="max-height:500px"
@@ -56,6 +65,13 @@
 
     </div>
 
+
+    ### Step 4 - Monitor the transaction
+
+    You can monitor the transaction on a blockchain explorer, such as Etherscan,
+    by clicking on the transaction hash provided by your wallet or the Uniswap
+    interface. Once the transaction is confirmed, the fees will be added to your
+    wallet balance.
 
 
     <div align="center">
