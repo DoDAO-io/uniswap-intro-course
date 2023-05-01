@@ -1649,6 +1649,15 @@
       "questions": [],
       "readings": [],
       "summaries": []
+    },
+    {
+      "key": "manage-position",
+      "title": "Manage Position",
+      "details": "This chapter explains the various operation that you can do on Uniswap website to manage or update your position",
+      "explanations": [],
+      "readings": [],
+      "summaries": [],
+      "questions": []
     }
   ],
   "priority": 50
