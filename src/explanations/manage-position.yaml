@@ -66,10 +66,11 @@
     </div>
 
 
-    ### Step 4 - Monitor the transaction
+    ### Step 4 - Confirm and Monitor the transaction
 
-    You can monitor the transaction on a blockchain explorer, such as Etherscan,
-    by clicking on the transaction hash provided by your wallet or the Uniswap
+    You can confirm the transaction from you wallet and after that you can
+    monitor the transaction on a blockchain explorer, such as Etherscan, by
+    clicking on the transaction hash provided by your wallet or the Uniswap
     interface. Once the transaction is confirmed, the fees will be added to your
     wallet balance.
 
