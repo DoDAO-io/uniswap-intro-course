@@ -1,0 +1,105 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Manage Position
+ 
+ **Collect Fees**        
+Liquidity providers (LPs) can earn fees in proportion to their share of the liquidity pool. Here are the detailed steps on how to collect fees in the Uniswap interface for Uniswap V3:
+
+### Step 1 - Select Pool
+Once your wallet is connected, click on the "Pool" tab in the top navigation bar. This will open the Pool management section. In the Pool management section, you'll see a list of your active liquidity positions, if any. Each position will show the token pair, the price range you've set, and the liquidity you've provided.
+
+### Step 2 - Fees Section
+On the position details page, you can see the fees you have accrued in both tokens. This value will update in real-time as swaps occur within your price range. To collect the fees, click on the "Collect" button. A new window will appear, allowing you to choose the percentage of fees you want to collect. 
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682952846888_collect_fees_1.jpg"/>
+</div>
+
+### Step 3 - Confirm the transaction
+After selecting the percentage of fees to collect, click on the "Collect" button in the window. This will initiate the transaction. A confirmation request will be sent to your connected wallet. Review the transaction details and confirm the transaction by approving it in your wallet.
+
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682953104362_collect_fees_2.jpg"/>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682953129191_collect_fees_3.jpg"/>
+</div>
+
+### Step 4 - Confirm and Monitor the transaction
+You can confirm the transaction from you wallet and after that you can monitor the transaction on a blockchain explorer, such as Etherscan, by clicking on the transaction hash provided by your wallet or the Uniswap interface. Once the transaction is confirmed, the fees will be added to your wallet balance.
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682953151275_collect_fees_4.jpg"/>
+</div>
+ 
+ **Remove Liquidity**        
+To remove liquidity from Uniswap V3, follow these detailed steps:
+
+### Step 1 - Select Pool
+After connecting your wallet, click the "Pool" tab in the top navigation bar to access the Pool management section.In the Pool management section, you'll see a list of your active liquidity positions if you have any. Each position will display the token pair, the price range you've set, and the liquidity you've provided.
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954660990_remove_position_1.jpg"/>
+</div>
+
+### Step 2 - Position Details
+On the position details page, click the "Remove Liquidity" button to initiate the removal process. A new window will appear, allowing you to choose the percentage of liquidity you want to remove.
+
+### Step 3 - Select Amount
+You can remove all your liquidity by setting the percentage to 100% or any other desired amount. If you've earned fees, you may want to collect them before removing liquidity (as explained in the previous section).
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954669683_remove_position_2.jpg"/>
+</div>
+
+
+<br/>
+
+<br/>
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954686023_remove_position_4.jpg"/>
+</div>
+
+### Step 4 - Review
+After selecting the percentage of liquidity to remove, review the details of the removal, including the amounts of each token you'll receive. The Uniswap interface will calculate the amounts based on the current prices and your share of the pool.
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954686023_remove_position_4.jpg"/>
+</div>
+
+
+<br/>
+
+<br/>
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954693402_remove_position_5.jpg"/>
+</div>
+
+### Step 5 - Confirm
+Click the "Remove" button in the window to initiate the transaction. A confirmation request will be sent to your connected wallet. Review the transaction details and confirm the transaction by approving it in your wallet.
+
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954700302_remove_position_6.jpg"/>
+</div>
+
+Monitor the transaction on a blockchain explorer, such as Etherscan, by clicking on the transaction hash provided by your wallet or the Uniswap interface. Once the transaction is confirmed, the removed liquidity will be added to your wallet balance in the form of the underlying tokens.
+
+
+
+<div align="center">
+<img style="max-height:500px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954707084_remove_position_7.jpg"/>
+</div> 
+ 

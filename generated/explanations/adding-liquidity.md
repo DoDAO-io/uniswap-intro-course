@@ -8,9 +8,6 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  **Select Pair**        
 Uniswap V3 enables Liquidity Providers to concentrate their capital within specific price ranges, allowing them to provide more liquidity at preferred prices. Unlike Uniswap V2, which required all users to provide liquidity across the entire price curve from 0 to infinity, Uniswap V3 allows LPs to selectively allocate capital within the price range they anticipate to yield the highest return.
 
-This tutorial will guide you through the process of providing liquidity using the Uniswap application.
-
-## Select Pair
 To start, you need to choose which token pair you want to supply as liquidity.
 
 While any pair of ERC-20 tokens is acceptable, each pair has distinct qualities. It would be helpful to evaluate aspects such as Total Value Locked (TVL), trading volume, and the possibility of price divergence between these tokens in the future.
