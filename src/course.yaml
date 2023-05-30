@@ -8,7 +8,7 @@ highlights:
   - What are liquidity pools
   - Concentrated Liquidity
   - Create position on Uniswap V3.
-publishStatus: Draft
+publishStatus: Live
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/DoDAO_Course_Template/1682154637786_intro_to_uniswap.png
 details: >-
@@ -104,6 +104,12 @@ topics:
 
 
     explanations: adding-liquidity.yaml
+  - key: manage-position
+    title: Manage Position
+    details: >-
+      This chapter explains the various operations that you can do on Uniswap
+      website to manage or update your position
+    explanations: manage-position.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
