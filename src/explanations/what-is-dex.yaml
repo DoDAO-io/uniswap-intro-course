@@ -170,6 +170,7 @@
     value of the two assets changes significantly during the time that their
     funds are locked in the liquidity pool.
 - key: what-are-liquidity-pool
+  title: What are Liquidity Pool?
   shortTitle: Liquidity Pools
   details: >+
     ### What are Liquidity Pools?
@@ -181,6 +182,17 @@
     in proportion to the amount of liquidity they provide. Liquidity pools
     enable decentralized trading by providing a source of liquidity, and are a
     critical component of AMMs.
+
+
+    <div align="center">
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/dVJzcFDo498" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+    </div>
 
 
     ### User Position - Liquidity Pool Tokens
@@ -229,7 +241,6 @@
     buy USDC. This helps to ensure that the pool remains liquid and that users
     are always able to buy and sell the tokens they need.
 
-  title: What are Liquidity Pool?
 - key: types-of-amms
   shortTitle: Types of AMMs
   details: >
