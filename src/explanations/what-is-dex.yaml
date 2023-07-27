@@ -65,6 +65,7 @@
 
 
 - key: how-amm-works
+  title: How AMM Works?
   shortTitle: How AMM Works?
   details: >-
     ### AMM Intro
@@ -92,6 +93,17 @@
     a pool of funds that are contributed by liquidity providers. These liquidity
     providers deposit funds into a smart contract that is designed to facilitate
     trading.
+
+
+    <div align="center">
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/1PbZMudPP5E" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+    </div>
 
 
     ### Price Calculation
@@ -157,7 +169,6 @@
     higher for volatile assets, and liquidity providers can incur losses if the
     value of the two assets changes significantly during the time that their
     funds are locked in the liquidity pool.
-  title: How AMM Works?
 - key: what-are-liquidity-pool
   shortTitle: Liquidity Pools
   details: >+
