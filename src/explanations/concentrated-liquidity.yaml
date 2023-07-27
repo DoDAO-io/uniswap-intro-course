@@ -97,6 +97,7 @@
     returns for liquidity providers and a more efficient and stable trading
     experience for users.
 - key: concentrated-liquidity
+  title: Concentrated Liquidity
   shortTitle: Concentrated Liq.
   details: >+
     ### What is Concentrated Liquidity AMM?
@@ -132,6 +133,18 @@
     reducing risks and providing better trading experiences for users.
 
 
+    <div align="center">
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/ClWR1570UQw" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+    </div>
+
+
+
     ### Concentrated Liquidity Example
 
     Let's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC
@@ -164,7 +177,6 @@
 
 
 
-  title: Concentrated Liquidity
 - key: earning-fees
   shortTitle: Earning Fees
   details: >-
