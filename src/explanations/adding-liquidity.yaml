@@ -2,9 +2,6 @@
   title: Select Pair
   shortTitle: Select Pair
   details: >-
-    <div align="center">
-
-
     <iframe width="560" height="315"
     src="https://www.youtube.com/embed/ZIjVzTRk_z0" title="YouTube video player"
     frameborder="0" allow="accelerometer; autoplay; clipboard-write;
@@ -12,7 +9,6 @@
     allowfullscreen></iframe>
 
 
-    </div>
 
 
     Uniswap V3 enables Liquidity Providers to concentrate their capital within
