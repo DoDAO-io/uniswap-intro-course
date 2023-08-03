@@ -11,10 +11,28 @@ highlights:
 publishStatus: Live
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/DoDAO_Course_Template/1682154637786_intro_to_uniswap.png
-details: >-
-  This course explain what is AMM, what are liquidity pools, different type of
-  AMMs, what is concentrated liquidity and how to create a position on Uniswap
-  V3.
+details: >
+  We've designed this course to help you understand the world of decentralized
+  exchanges (DEX) and DeFi, with a special focus on Uniswap v3
+
+
+  Our first chapter serves as an introduction to DEX.
+
+
+  In the subsequent chapters, we will guide you through some of the most crucial
+  concepts in DEX - concentrated liquidity and impermanent loss. As liquidity
+  providers, understanding these concepts will enable you to better navigate the
+  terrain, efficiently allocate your resources, and protect your investments.
+  You'll learn how these mechanisms work in depth.
+
+
+  We will then take a closer look at the mechanics of liquidity pools,
+  particularly the novel features introduced by Uniswap v3, such as range and
+  ticks. This will help you grasp the essence of concentrated liquidity
+  mechanism and how it can be leveraged to increase capital efficiency.
+  Furthering this exploration, the course will guide you through the practical
+  steps involved in adding liquidity and managing your position on the Uniswap
+  v3 platform.
 duration: 30 mins - 1 hour
 topics:
   - key: what-is-dex

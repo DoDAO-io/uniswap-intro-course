@@ -2,7 +2,7 @@
   "key": "getting-started-with-uniswap",
   "title": "Getting Started With Uniswap",
   "summary": "This course explains what is AMM, what is concentrated liquidity, and how to create a position on Uniswap V3.",
-  "details": "This course explain what is AMM, what are liquidity pools, different type of AMMs, what is concentrated liquidity and how to create a position on Uniswap V3.",
+  "details": "We've designed this course to help you understand the world of decentralized exchanges (DEX) and DeFi, with a special focus on Uniswap v3\n\nOur first chapter serves as an introduction to DEX.\n\nIn the subsequent chapters, we will guide you through some of the most crucial concepts in DEX - concentrated liquidity and impermanent loss. As liquidity providers, understanding these concepts will enable you to better navigate the terrain, efficiently allocate your resources, and protect your investments. You'll learn how these mechanisms work in depth.\n\nWe will then take a closer look at the mechanics of liquidity pools, particularly the novel features introduced by Uniswap v3, such as range and ticks. This will help you grasp the essence of concentrated liquidity mechanism and how it can be leveraged to increase capital efficiency. Furthering this exploration, the course will guide you through the practical steps involved in adding liquidity and managing your position on the Uniswap v3 platform.\n",
   "duration": "30 mins - 1 hour",
   "highlights": [
     "What is AMM",
