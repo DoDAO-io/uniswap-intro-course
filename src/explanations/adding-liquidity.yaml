@@ -2,15 +2,9 @@
   title: Select Pair
   shortTitle: Select Pair
   details: >-
-    <div align="center">
+    <div class="play-js-player py-6" data-plyr-provider="youtube"
+    data-plyr-embed-id="ZIjVzTRk_z0"></div>
 
-    <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/ZIjVzTRk_z0" title="YouTube video player"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-    encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-
-    </div>
 
 
     Uniswap V3 enables Liquidity Providers to concentrate their capital within
