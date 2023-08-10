@@ -67,16 +67,8 @@
 
     ### Explainer Video 
 
-    <div align="center">
-
-    <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/2tTVJL4bpTU" title="YouTube video player"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-    encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-
-    </div>
-
+    <div class="play-js-player py-6" data-plyr-provider="youtube"
+    data-plyr-embed-id="2tTVJL4bpTU"></div>
 
 - key: how-amm-works
   title: How AMM Works?
