@@ -2,9 +2,17 @@
   title: Select Pair
   shortTitle: Select Pair
   details: >-
+    ### Explainer Video
+
     <div class="play-js-player py-6" data-plyr-provider="youtube"
     data-plyr-embed-id="ZIjVzTRk_z0"></div>
 
+
+
+    ### Simulation
+
+    See this simulation: [Add
+    Liquidity](https://uniswap.university/simulations/view/add-liquidity-uniswap/0)
 
 
     Uniswap V3 enables Liquidity Providers to concentrate their capital within
