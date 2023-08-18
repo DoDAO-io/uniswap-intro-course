@@ -97,6 +97,14 @@
   title: Remove Liquidity
   shortTitle: Remove Liquidity
   details: >-
+    ## Simulation
+
+    You can try this simulation: [Remove
+    Liquidity](https://uniswap.university/simulations/view/remove-liquidity-uniswap/0)
+
+
+    ## Details
+
     To remove liquidity from Uniswap V3, follow these detailed steps:
 
 
