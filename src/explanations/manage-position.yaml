@@ -3,8 +3,20 @@
   shortTitle: Collect Fees
   details: >
     Liquidity providers (LPs) can earn fees in proportion to their share of the
-    liquidity pool. Here are the detailed steps on how to collect fees in the
-    Uniswap interface for Uniswap V3:
+    liquidity pool. 
+
+
+    ## Simulation
+
+
+    You can try this simulation: [Collect
+    Fees](https://uniswap.university/simulations/view/collect-fees-uniswap/0)
+
+
+    ## Details
+
+    Here are the detailed steps on how to collect fees in the Uniswap interface
+    for Uniswap V3:
 
 
     ### Step 1 - Select Pool
