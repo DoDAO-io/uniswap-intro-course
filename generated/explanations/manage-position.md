@@ -6,7 +6,14 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Manage Position
  
  **Collect Fees**        
-Liquidity providers (LPs) can earn fees in proportion to their share of the liquidity pool. Here are the detailed steps on how to collect fees in the Uniswap interface for Uniswap V3:
+Liquidity providers (LPs) can earn fees in proportion to their share of the liquidity pool. 
+
+## Simulation
+
+You can try this simulation: [Collect Fees](https://uniswap.university/simulations/view/collect-fees-uniswap/0)
+
+## Details
+Here are the detailed steps on how to collect fees in the Uniswap interface for Uniswap V3:
 
 ### Step 1 - Select Pool
 Once your wallet is connected, click on the "Pool" tab in the top navigation bar. This will open the Pool management section. In the Pool management section, you'll see a list of your active liquidity positions, if any. Each position will show the token pair, the price range you've set, and the liquidity you've provided.
@@ -43,6 +50,10 @@ You can confirm the transaction from you wallet and after that you can monitor t
 </div>
  
  **Remove Liquidity**        
+## Simulation
+You can try this simulation: [Remove Liquidity](https://uniswap.university/simulations/view/remove-liquidity-uniswap/0)
+
+## Details
 To remove liquidity from Uniswap V3, follow these detailed steps:
 
 ### Step 1 - Select Pool

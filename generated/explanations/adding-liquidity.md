@@ -6,9 +6,14 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Adding Liquidity
  
  **Select Pair**        
+## Simulation
+See this simulation: [Add Liquidity](https://uniswap.university/simulations/view/add-liquidity-uniswap/0)
+
+## Explainer Video
 <div class="play-js-player py-6" data-plyr-provider="youtube" data-plyr-embed-id="ZIjVzTRk_z0"></div>
 
 
+## Details
 Uniswap V3 enables Liquidity Providers to concentrate their capital within specific price ranges, allowing them to provide more liquidity at preferred prices. Unlike Uniswap V2, which required all users to provide liquidity across the entire price curve from 0 to infinity, Uniswap V3 allows LPs to selectively allocate capital within the price range they anticipate to yield the highest return.
 
 To start, you need to choose which token pair you want to supply as liquidity.
