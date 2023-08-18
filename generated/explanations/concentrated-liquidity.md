@@ -51,6 +51,9 @@ Concentrated liquidity AMM is a new approach to decentralized trading that allow
 
 In a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.
 
+<div class="play-js-player py-6" data-plyr-provider="youtube" data-plyr-embed-id="ClWR1570UQw"></div>
+
+
 ### Concentrated Liquidity Example
 Let's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC pool using a concentrated liquidity AMM. They each have an equal amount of ETH and USDC but want to deposit their funds over different price ranges.
 

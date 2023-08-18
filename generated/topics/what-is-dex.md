@@ -5,9 +5,13 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## What Is a DEX?
  
-Smart contract auditing is the process of reviewing and testing the source code of a smart contract to identify any potential vulnerabilities or security issues. This can include checking for errors in the code, evaluating the contract's overall design and architecture, and testing the contract's functionality to ensure that it performs as intended. The goal of a smart contract audit is to ensure that the contract is secure and reliable, and that it will function as intended when deployed on a blockchain network.
+Welcome to the chapter where we explore the very foundation of the decentralized finance (DeFi) world, the Decentralized Exchange, often referred to as a DEX. Here, we're going to demystify what a DEX is, how it operates, and why it's a crucial component of the DeFi ecosystem.
 
+In the traditional financial system, exchanges are usually centralized, meaning they are controlled by a single entity. However, in the blockchain and crypto world, a DEX operates differently. In this chapter, we'll learn how a DEX allows for direct peer-to-peer transactions, eliminating the need for intermediaries or centralized authorities.
 
+We'll explore the key features that make DEXs unique, their benefits, and some of the challenges they face. By the end of this chapter, you'll have a solid understanding of DEXs and why they are a fundamental building block in the rapidly evolving DeFi landscape.
+
+So, whether you're new to the world of DeFi or looking to brush up on your knowledge, this chapter will offer you valuable insights into the inner workings of decentralized exchanges. Let's dive in and explore the exciting world of DEXs.
 
 ## Links
 

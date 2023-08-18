@@ -15,6 +15,10 @@ When a user trades in the pool, the price is determined by the current ratio of 
 <img src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912476448_07_v2_liquidity_chart.png" />
 </div>
 
+### Explainer Video
+<div class="play-js-player py-6" data-plyr-provider="youtube" data-plyr-embed-id="rWPVTz4cao8"></div>
+
+
 ### Uniswap V3 - Liquidity Graph
 Uniswap v3 introduces the concept of concentrated liquidity, which allows liquidity providers to specify a price range for their liquidity. Instead of providing liquidity across the entire price spectrum, LPs can choose custom price ranges where they believe most of the trading will happen. This allows them to earn more fees for a given amount of deposited capital.
 

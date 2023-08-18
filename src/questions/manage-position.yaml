@@ -1,0 +1,98 @@
+- uuid: 2acc3f28-1344-45e0-901e-6846502e4d83
+  type: SingleChoice
+  content: Where can you find the Pool management section in the Uniswap interface?
+  hint: 'Nohint'
+  explanation: >-
+    In the Uniswap interface, the Pool management section can be accessed by clicking on the 'Pool' tab in the top navigation bar.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: By clicking on the 'Pool' tab in the top navigation bar.
+      key: A
+    - content: By clicking on the 'Fees' tab in the settings.
+      key: B
+    - content: On the main dashboard page.
+      key: C
+    - content: In the 'Transactions' tab.
+      key: D
+
+- uuid: 75a97170-7171-4f06-a0aa-617382dc2c04
+  type: SingleChoice
+  content: What should you do after initiating a transaction to collect fees?
+  hint: 'Nohint'
+  explanation: >-
+    After initiating a transaction to collect fees, you should review the transaction details and confirm the transaction by approving it in your connected wallet.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Disconnect your wallet immediately.
+      key: A
+    - content: Refresh the page.
+      key: B
+    - content: Review the transaction details and confirm it in your wallet.
+      key: C
+    - content: Contact the Uniswap support team.
+      key: D
+- uuid: e13cf73d-b08f-4c24-9395-d36c57ef5281
+  type: SingleChoice
+  content: What is the first step to remove liquidity from Uniswap V3?
+  hint: 'Nohint'
+  explanation: >-
+    The first step to remove liquidity from Uniswap V3 is to select the pool after connecting the wallet.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Review the amounts of each token you'll receive.
+      key: A
+    - content: Select the "Pool" tab to access the Pool management section.
+      key: B
+    - content: Click the "Remove Liquidity" button.
+      key: C
+    - content: Set the percentage of liquidity to remove.
+      key: D
+
+- uuid: 4c5340c9-5c4d-4c89-bf61-6c4f66c43276
+  type: SingleChoice
+  content: On which page do you click the "Remove Liquidity" button?
+  hint: 'Nohint'
+  explanation: >-
+    The "Remove Liquidity" button is clicked on the position details page.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: On the main dashboard.
+      key: A
+    - content: On the Pool management section.
+      key: B
+    - content: On the position details page.
+      key: C
+    - content: On the transaction confirmation page.
+      key: D
+
+- uuid: 0d196e68-4825-414a-8bc5-75c115245938
+  type: SingleChoice
+  content: How can you monitor the transaction after initiating the removal?
+  hint: 'Nohint'
+  explanation: >-
+    You can monitor the transaction on a blockchain explorer like Etherscan by clicking on the transaction hash.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: By refreshing the Uniswap interface.
+      key: A
+    - content: Using a blockchain explorer like Etherscan.
+      key: B
+    - content: By checking your wallet's transaction history.
+      key: C
+    - content: Through an email confirmation from Uniswap.
+      key: D

@@ -27,21 +27,21 @@
       "explanations": [
         {
           "key": "what-is-automated-market-maker",
+          "title": "What is Automated Market Maker?",
           "shortTitle": "What is AMM?",
-          "details": "\n### Exchanging Assets\n\nCryptocurrencies are exchanged for reasons similar to those in traditional financial markets, including investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance. Cryptocurrencies are seen as a new asset class with high potential returns and are highly volatile, creating trading opportunities for investors. Cryptocurrencies can be used to hedge against other investments or to manage risk in a portfolio. They can also be used as a means of payment for online transactions or remittances. Investors may exchange cryptocurrencies to gain access to new tokens or projects not available on traditional markets or to comply with regulations.\n\n### Traditional Way - Order Book\nAssets are traded on an exchange through a centralized platform, an order book, where buyers and sellers place orders to buy or sell a specific asset. Trading involves placing an order, matching orders based on price and other parameters, settling the trade, and clearing it through a central counterparty. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107243577_order_book.png\"/>\n</div>\n\nAn order book is a list of buy and sell orders for a financial instrument. It shows the supply and demand for the asset and allows traders to make informed decisions. Each order includes the type, price, quantity, and time. Orders are matched and filled based on price and time stamp. Order books are used in exchange-traded markets for transparency and price discovery.\n\n### New Way - Automated Market Maker\nAn automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that uses a mathematical algorithm to create a market for trading assets without market makers. It creates a liquidity pool for each asset pair, and the pool's algorithm determines the asset's price based on the ratio of tokens in the pool. The AMM algorithm ensures that the pool has sufficient funds for trading and adjusts the price according to the trading volume and liquidity. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682097075973_10_amm_basic.png\"/>\n</div>\n\n\nAMMs are used in DeFi platforms and are popular for their simplicity, transparency, and accessibility.\n\n\n### Explainer Video\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"2tTVJL4bpTU\"></div>\n\n",
-          "title": "What is Automated Market Maker?"
+          "details": "\n### Exchanging Assets\n\nCryptocurrencies are exchanged for reasons similar to those in traditional financial markets, including investment, trading, hedging, risk management, payment purposes, access to new tokens and projects, and regulatory compliance. Cryptocurrencies are seen as a new asset class with high potential returns and are highly volatile, creating trading opportunities for investors. Cryptocurrencies can be used to hedge against other investments or to manage risk in a portfolio. They can also be used as a means of payment for online transactions or remittances. Investors may exchange cryptocurrencies to gain access to new tokens or projects not available on traditional markets or to comply with regulations.\n\n### Traditional Way - Order Book\nAssets are traded on an exchange through a centralized platform, an order book, where buyers and sellers place orders to buy or sell a specific asset. Trading involves placing an order, matching orders based on price and other parameters, settling the trade, and clearing it through a central counterparty. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107243577_order_book.png\"/>\n</div>\n\nAn order book is a list of buy and sell orders for a financial instrument. It shows the supply and demand for the asset and allows traders to make informed decisions. Each order includes the type, price, quantity, and time. Orders are matched and filled based on price and time stamp. Order books are used in exchange-traded markets for transparency and price discovery.\n\n### New Way - Automated Market Maker\nAn automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that uses a mathematical algorithm to create a market for trading assets without market makers. It creates a liquidity pool for each asset pair, and the pool's algorithm determines the asset's price based on the ratio of tokens in the pool. The AMM algorithm ensures that the pool has sufficient funds for trading and adjusts the price according to the trading volume and liquidity. \n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682097075973_10_amm_basic.png\"/>\n</div>\n\n\nAMMs are used in DeFi platforms and are popular for their simplicity, transparency, and accessibility.\n\n\n### Explainer Video\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"2tTVJL4bpTU\"></div>\n\n"
         },
         {
           "key": "how-amm-works",
+          "title": "How AMM Works?",
           "shortTitle": "How AMM Works?",
-          "details": "### AMM Intro\nAn Automated Market Maker (AMM) is a type of decentralized exchange (DEX) protocol that allows traders to trade cryptocurrencies and other digital assets without an order book or an intermediary. In traditional markets, a market maker plays a critical role in ensuring that there is sufficient liquidity by acting as an intermediary between buyers and sellers. An AMM replaces the role of a traditional market maker with a mathematical algorithm that determines the price of assets being traded.\n\n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107290305_amm_logical_diagram.png\"/>\n</div>\n\nIn an AMM, traders can trade cryptocurrencies and other digital assets by swapping them with each other, without having to go through a centralized exchange or intermediaries. Instead, AMMs rely on a liquidity pool, which is a pool of funds that are contributed by liquidity providers. These liquidity providers deposit funds into a smart contract that is designed to facilitate trading.\n\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"1PbZMudPP5E\"></div>\n\n### Price Calculation\nWhen a trader wants to buy or sell an asset, they submit a transaction to the smart contract with the amount of asset they want to buy or sell, and the smart contract automatically calculates the price based on a mathematical formula that determines the ratio of each asset in the liquidity pool.\n\nThe most common mathematical formula used in AMMs is the constant product formula, also known as the x*y=k formula. This formula ensures that the product of the quantity of each asset in the pool remains constant, which is why it's called the constant product formula. This formula is used in Uniswap, one of the most popular AMMs.\n\nFor example, suppose a liquidity provider deposits 100 units of token A and 50 units of token B into the liquidity pool. The total value of the liquidity pool is 100 x 50 = 5000. Suppose a trader wants to buy 10 units of token A with token B. The AMM smart contract will calculate the price of token A in token B based on the ratio of token A to token B in the liquidity pool, and the trader will receive 10 units of token A, while the liquidity provider will receive the equivalent amount of token B.\n\n### Benefits\nHere are some benefits of AMMs over order books:\n- AMMs provide liquidity to traders with always available prices, while order books require both buyer and seller to agree on a price leading to low liquidity for some assets. \n- AMMs do not need order matching, using a mathematical formula for price discovery based on the asset ratio in the pool. \n- Because AMMs utilize smart contracts and mathematical formulas, traders can exchange assets around the clock, while traditional trading is restricted to operating hours.\n- AMMs have reduced risks of price manipulation compared to order books that are susceptible to it.\n- Additionally, AMMs have lower barriers to entry, allowing traders to add liquidity to the pool and earn fees instead of requiring significant capital to participate in the market.\n\n\n\n\nOne advantage of AMMs is that they enable decentralized trading and remove the need for an order book or an intermediary, which can result in lower fees and faster transaction times.\n\n### Downsides\nOne major disadvantage is the risk of impermanent loss, which occurs when the value of the two assets in the liquidity pool changes. This risk is higher for volatile assets, and liquidity providers can incur losses if the value of the two assets changes significantly during the time that their funds are locked in the liquidity pool.",
-          "title": "How AMM Works?"
+          "details": "### AMM Intro\nAn Automated Market Maker (AMM) is a type of decentralized exchange (DEX) protocol that allows traders to trade cryptocurrencies and other digital assets without an order book or an intermediary. In traditional markets, a market maker plays a critical role in ensuring that there is sufficient liquidity by acting as an intermediary between buyers and sellers. An AMM replaces the role of a traditional market maker with a mathematical algorithm that determines the price of assets being traded.\n\n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107290305_amm_logical_diagram.png\"/>\n</div>\n\nIn an AMM, traders can trade cryptocurrencies and other digital assets by swapping them with each other, without having to go through a centralized exchange or intermediaries. Instead, AMMs rely on a liquidity pool, which is a pool of funds that are contributed by liquidity providers. These liquidity providers deposit funds into a smart contract that is designed to facilitate trading.\n\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"1PbZMudPP5E\"></div>\n\n### Price Calculation\nWhen a trader wants to buy or sell an asset, they submit a transaction to the smart contract with the amount of asset they want to buy or sell, and the smart contract automatically calculates the price based on a mathematical formula that determines the ratio of each asset in the liquidity pool.\n\nThe most common mathematical formula used in AMMs is the constant product formula, also known as the x*y=k formula. This formula ensures that the product of the quantity of each asset in the pool remains constant, which is why it's called the constant product formula. This formula is used in Uniswap, one of the most popular AMMs.\n\nFor example, suppose a liquidity provider deposits 100 units of token A and 50 units of token B into the liquidity pool. The total value of the liquidity pool is 100 x 50 = 5000. Suppose a trader wants to buy 10 units of token A with token B. The AMM smart contract will calculate the price of token A in token B based on the ratio of token A to token B in the liquidity pool, and the trader will receive 10 units of token A, while the liquidity provider will receive the equivalent amount of token B.\n\n### Benefits\nHere are some benefits of AMMs over order books:\n- AMMs provide liquidity to traders with always available prices, while order books require both buyer and seller to agree on a price leading to low liquidity for some assets. \n- AMMs do not need order matching, using a mathematical formula for price discovery based on the asset ratio in the pool. \n- Because AMMs utilize smart contracts and mathematical formulas, traders can exchange assets around the clock, while traditional trading is restricted to operating hours.\n- AMMs have reduced risks of price manipulation compared to order books that are susceptible to it.\n- Additionally, AMMs have lower barriers to entry, allowing traders to add liquidity to the pool and earn fees instead of requiring significant capital to participate in the market.\n\n\n\n\nOne advantage of AMMs is that they enable decentralized trading and remove the need for an order book or an intermediary, which can result in lower fees and faster transaction times.\n\n### Downsides\nOne major disadvantage is the risk of impermanent loss, which occurs when the value of the two assets in the liquidity pool changes. This risk is higher for volatile assets, and liquidity providers can incur losses if the value of the two assets changes significantly during the time that their funds are locked in the liquidity pool."
         },
         {
           "key": "what-are-liquidity-pool",
+          "title": "What are Liquidity Pool?",
           "shortTitle": "Liquidity Pools",
-          "details": "### What are Liquidity Pools?\nA liquidity pool is a pool of tokens held by a smart contract on a decentralized exchange, allowing traders to swap one token for another by trading against the pool. The pool's price is determined by the ratio of tokens in the pool, and liquidity providers earn a share of the trading fees in proportion to the amount of liquidity they provide. Liquidity pools enable decentralized trading by providing a source of liquidity, and are a critical component of AMMs.\n\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"dVJzcFDo498\"></div>\n\n### User Position - Liquidity Pool Tokens\nIn a liquidity pool, users can add funds to the pool in exchange for a share of the liquidity pool tokens. These tokens are used to represent the user's share of the liquidity pool, and they can be traded or sold just like any other cryptocurrency.\n\nLiquidity pool tokens share in a liquidity pool. Liquidity Provides earn a portion of the trading fees generated by the exchange proportional to their share in the pool.\n\n### User Position - NFTs\nIn Uniswap V3, Liquidity Providers (LPs) receive a non-fungible token (NFT) called a \"liquidity position token\" instead of traditional LP tokens. This is because Uniswap V3 introduces the concept of \"concentrated liquidity,\" where LPs can choose to provide liquidity within a specific price range or \"tick\" rather than providing liquidity for the entire price range of an asset. The NFT represents the LP's specific position within a particular tick range, allowing for more granular control and flexibility over their liquidity provision.\n\n### Token Ratios\nIn a liquidity pool that supports trading between USDC and ETH, the rations determine the relative amount of each token that is contributed to the pool. For example, if the rations are set at 50:50, it means that half of the liquidity pool's value is in USDC and the other half is in ETH. If a user wants to swap 1 ETH for USDC, the pool's smart contract calculates the current exchange rate based on the ratio of USDC to ETH in the pool and determines the amount of USDC that the user will receive in exchange for their 1 ETH. The rations play a crucial role in determining the price of each token in the pool and ensuring that the pool has sufficient liquidity for trading.\n\nThe smart contract automatically adjusts the ratio of the two tokens in the pool to ensure that the price remains balanced. If there is more demand for ETH, then the smart contract will automatically adjust the price of ETH higher and the price of USDC lower to encourage more users to sell ETH and buy USDC. This helps to ensure that the pool remains liquid and that users are always able to buy and sell the tokens they need.\n\n",
-          "title": "What are Liquidity Pool?"
+          "details": "### What are Liquidity Pools?\nA liquidity pool is a pool of tokens held by a smart contract on a decentralized exchange, allowing traders to swap one token for another by trading against the pool. The pool's price is determined by the ratio of tokens in the pool, and liquidity providers earn a share of the trading fees in proportion to the amount of liquidity they provide. Liquidity pools enable decentralized trading by providing a source of liquidity, and are a critical component of AMMs.\n\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"dVJzcFDo498\"></div>\n\n### User Position - Liquidity Pool Tokens\nIn a liquidity pool, users can add funds to the pool in exchange for a share of the liquidity pool tokens. These tokens are used to represent the user's share of the liquidity pool, and they can be traded or sold just like any other cryptocurrency.\n\nLiquidity pool tokens share in a liquidity pool. Liquidity Provides earn a portion of the trading fees generated by the exchange proportional to their share in the pool.\n\n### User Position - NFTs\nIn Uniswap V3, Liquidity Providers (LPs) receive a non-fungible token (NFT) called a \"liquidity position token\" instead of traditional LP tokens. This is because Uniswap V3 introduces the concept of \"concentrated liquidity,\" where LPs can choose to provide liquidity within a specific price range or \"tick\" rather than providing liquidity for the entire price range of an asset. The NFT represents the LP's specific position within a particular tick range, allowing for more granular control and flexibility over their liquidity provision.\n\n### Token Ratios\nIn a liquidity pool that supports trading between USDC and ETH, the rations determine the relative amount of each token that is contributed to the pool. For example, if the rations are set at 50:50, it means that half of the liquidity pool's value is in USDC and the other half is in ETH. If a user wants to swap 1 ETH for USDC, the pool's smart contract calculates the current exchange rate based on the ratio of USDC to ETH in the pool and determines the amount of USDC that the user will receive in exchange for their 1 ETH. The rations play a crucial role in determining the price of each token in the pool and ensuring that the pool has sufficient liquidity for trading.\n\nThe smart contract automatically adjusts the ratio of the two tokens in the pool to ensure that the price remains balanced. If there is more demand for ETH, then the smart contract will automatically adjust the price of ETH higher and the price of USDC lower to encourage more users to sell ETH and buy USDC. This helps to ensure that the pool remains liquid and that users are always able to buy and sell the tokens they need.\n\n"
         },
         {
           "key": "types-of-amms",
@@ -435,9 +435,9 @@
         },
         {
           "key": "concentrated-liquidity",
+          "title": "Concentrated Liquidity",
           "shortTitle": "Concentrated Liq.",
-          "details": "### What is Concentrated Liquidity AMM?\nConcentrated liquidity AMM is a new approach to decentralized trading that allows people to provide liquidity to a market more efficiently. Here's a simple explanation:\n\n1. In traditional AMMs, people deposit two tokens in equal value to create a liquidity pool. This pool is used to facilitate trading between those two tokens.\n2. In the case of concentrated liquidity AMM, people can choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.\n3. By focusing their funds on a smaller price range, they can have a more significant impact on that range, which means their money is being used more effectively.\n4. This approach helps reduce the risk of impermanent loss, as it gives choice to the user over what range do they want to deposit the liquidity.\n5. Concentrated liquidity AMM also allows for better price stability and reduced slippage, which is the change in price when a trade is executed. This is important because high slippage can lead to unfavorable trade outcomes.\n\nIn a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.\n\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"ClWR1570UQw\"></div>\n\n\n### Concentrated Liquidity Example\nLet's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC pool using a concentrated liquidity AMM. They each have an equal amount of ETH and USDC but want to deposit their funds over different price ranges.\n\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681575680046_concentrated_liquidity%20example.png\"/>\n</div>\n\nNow, the ETH-USDC pool has separate areas of concentrated liquidity:\n\nAs long as the price of ETH stays within their chosen ranges, Alice, Bob, and Carols's funds will be actively used to facilitate trades. If the price moves outside of their chosen ranges, their liquidity will not be used, and they won't earn fees from trades happening outside their specified price ranges.\n\nBy focusing their liquidity on narrower price ranges, Alice, Bob, and Carols can provide more substantial support for the market within those ranges. This leads to better price stability, reduced slippage, and potentially higher returns from trading fees for each of them.\n\n\n\n",
-          "title": "Concentrated Liquidity"
+          "details": "### What is Concentrated Liquidity AMM?\nConcentrated liquidity AMM is a new approach to decentralized trading that allows people to provide liquidity to a market more efficiently. Here's a simple explanation:\n\n1. In traditional AMMs, people deposit two tokens in equal value to create a liquidity pool. This pool is used to facilitate trading between those two tokens.\n2. In the case of concentrated liquidity AMM, people can choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.\n3. By focusing their funds on a smaller price range, they can have a more significant impact on that range, which means their money is being used more effectively.\n4. This approach helps reduce the risk of impermanent loss, as it gives choice to the user over what range do they want to deposit the liquidity.\n5. Concentrated liquidity AMM also allows for better price stability and reduced slippage, which is the change in price when a trade is executed. This is important because high slippage can lead to unfavorable trade outcomes.\n\nIn a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.\n\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"ClWR1570UQw\"></div>\n\n\n### Concentrated Liquidity Example\nLet's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC pool using a concentrated liquidity AMM. They each have an equal amount of ETH and USDC but want to deposit their funds over different price ranges.\n\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681575680046_concentrated_liquidity%20example.png\"/>\n</div>\n\nNow, the ETH-USDC pool has separate areas of concentrated liquidity:\n\nAs long as the price of ETH stays within their chosen ranges, Alice, Bob, and Carols's funds will be actively used to facilitate trades. If the price moves outside of their chosen ranges, their liquidity will not be used, and they won't earn fees from trades happening outside their specified price ranges.\n\nBy focusing their liquidity on narrower price ranges, Alice, Bob, and Carols can provide more substantial support for the market within those ranges. This leads to better price stability, reduced slippage, and potentially higher returns from trading fees for each of them.\n\n\n\n"
         },
         {
           "key": "earning-fees",
@@ -825,9 +825,9 @@
       "explanations": [
         {
           "key": "what-is-impermanent-loss",
+          "title": "What is Impermanent Loss? ",
           "shortTitle": "What is IL?",
-          "details": "### What is Impermanent Loss?\n\nImpermanent loss is a phenomenon experienced by liquidity providers in automated market makers (AMMs) when the value of their deposited assets changes compared to the initial deposit. This change in value can cause the provider's share of the pool to be worth less than if they had held the assets separately. Impermanent loss is influenced by the degree of price divergence between the assets in the pool and can be either temporary or permanent. Although it exposes liquidity providers to potential losses, trading fees can counteract the impact of impermanent loss, making it profitable to provide liquidity under various conditions.\n\n\n### How Does It Occur?\nImpermanent loss occurs when liquidity providers deposit assets into an AMM's liquidity pool, and the prices of those assets change relative to each other. AMMs do not automatically adjust their prices based on external markets; they rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices. During this process, arbitrageurs extract profits, which come at the expense of liquidity providers, resulting in impermanent loss. If the relative prices of tokens in the AMM return to their original state, the impermanent loss disappears, and liquidity providers earn trading fees. However, if the prices do not return to their original levels, impermanent loss can become permanent, reducing the providers' overall returns.\n\n### Video\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"8XJ1MSTEuU0\"></div>",
-          "title": "What is Impermanent Loss? "
+          "details": "### What is Impermanent Loss?\n\nImpermanent loss is a phenomenon experienced by liquidity providers in automated market makers (AMMs) when the value of their deposited assets changes compared to the initial deposit. This change in value can cause the provider's share of the pool to be worth less than if they had held the assets separately. Impermanent loss is influenced by the degree of price divergence between the assets in the pool and can be either temporary or permanent. Although it exposes liquidity providers to potential losses, trading fees can counteract the impact of impermanent loss, making it profitable to provide liquidity under various conditions.\n\n\n### How Does It Occur?\nImpermanent loss occurs when liquidity providers deposit assets into an AMM's liquidity pool, and the prices of those assets change relative to each other. AMMs do not automatically adjust their prices based on external markets; they rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices. During this process, arbitrageurs extract profits, which come at the expense of liquidity providers, resulting in impermanent loss. If the relative prices of tokens in the AMM return to their original state, the impermanent loss disappears, and liquidity providers earn trading fees. However, if the prices do not return to their original levels, impermanent loss can become permanent, reducing the providers' overall returns.\n\n### Video\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"8XJ1MSTEuU0\"></div>"
         },
         {
           "key": "example-of-impermanent-loss",
@@ -1221,9 +1221,9 @@
       "explanations": [
         {
           "key": "liquidity-graph",
+          "title": "Liquidity Graph",
           "shortTitle": "Liquidity Graph",
-          "details": "### Uniswap V2 - Liquidity Graph\nIn Uniswap v2, liquidity providers (LPs) deposit an equal value of two tokens (e.g., ETH and DAI) to create a liquidity pool. In our example, the pool consists of 100 ETH and 150,000 DAI. The liquidity in Uniswap v2 is spread uniformly across the entire price range, from 0 to infinity. This means that liquidity is available for trading at all price levels.\n\nWhen a user trades in the pool, the price is determined by the current ratio of the two assets in the pool, following the constant product formula (x * y = k). In our example, the initial ratio is 100 ETH * 150,000 DAI = 15,000,000.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912476448_07_v2_liquidity_chart.png\" />\n</div>\n\n### Explainer Video\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"rWPVTz4cao8\"></div>\n\n\n### Uniswap V3 - Liquidity Graph\nUniswap v3 introduces the concept of concentrated liquidity, which allows liquidity providers to specify a price range for their liquidity. Instead of providing liquidity across the entire price spectrum, LPs can choose custom price ranges where they believe most of the trading will happen. This allows them to earn more fees for a given amount of deposited capital.\n\nIn our example, if an LP believes that the ETH/DAI price will stay between 1,400 DAI and 1,600 DAI, they can deposit their liquidity within this range. This effectively concentrates their liquidity around the expected price, which can lead to more efficient capital usage and potentially higher returns.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912741645_07_v3_liquidity_chart.png\" />\n</div>\n\nTo sum up, in Uniswap v2, liquidity is spread uniformly across the entire price range, while in Uniswap v3, liquidity providers can concentrate their liquidity within custom price ranges, which can lead to more efficient capital usage and potentially higher returns.\n\n\n\n",
-          "title": "Liquidity Graph"
+          "details": "### Uniswap V2 - Liquidity Graph\nIn Uniswap v2, liquidity providers (LPs) deposit an equal value of two tokens (e.g., ETH and DAI) to create a liquidity pool. In our example, the pool consists of 100 ETH and 150,000 DAI. The liquidity in Uniswap v2 is spread uniformly across the entire price range, from 0 to infinity. This means that liquidity is available for trading at all price levels.\n\nWhen a user trades in the pool, the price is determined by the current ratio of the two assets in the pool, following the constant product formula (x * y = k). In our example, the initial ratio is 100 ETH * 150,000 DAI = 15,000,000.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912476448_07_v2_liquidity_chart.png\" />\n</div>\n\n### Explainer Video\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"rWPVTz4cao8\"></div>\n\n\n### Uniswap V3 - Liquidity Graph\nUniswap v3 introduces the concept of concentrated liquidity, which allows liquidity providers to specify a price range for their liquidity. Instead of providing liquidity across the entire price spectrum, LPs can choose custom price ranges where they believe most of the trading will happen. This allows them to earn more fees for a given amount of deposited capital.\n\nIn our example, if an LP believes that the ETH/DAI price will stay between 1,400 DAI and 1,600 DAI, they can deposit their liquidity within this range. This effectively concentrates their liquidity around the expected price, which can lead to more efficient capital usage and potentially higher returns.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912741645_07_v3_liquidity_chart.png\" />\n</div>\n\nTo sum up, in Uniswap v2, liquidity is spread uniformly across the entire price range, while in Uniswap v3, liquidity providers can concentrate their liquidity within custom price ranges, which can lead to more efficient capital usage and potentially higher returns.\n\n\n\n"
         },
         {
           "key": "real-reserves-graph",
@@ -1617,9 +1617,9 @@
       "explanations": [
         {
           "key": "select-pair",
+          "title": "Select Pair",
           "shortTitle": "Select Pair",
-          "details": "<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"ZIjVzTRk_z0\"></div>\n\n\nUniswap V3 enables Liquidity Providers to concentrate their capital within specific price ranges, allowing them to provide more liquidity at preferred prices. Unlike Uniswap V2, which required all users to provide liquidity across the entire price curve from 0 to infinity, Uniswap V3 allows LPs to selectively allocate capital within the price range they anticipate to yield the highest return.\n\nTo start, you need to choose which token pair you want to supply as liquidity.\n\nWhile any pair of ERC-20 tokens is acceptable, each pair has distinct qualities. It would be helpful to evaluate aspects such as Total Value Locked (TVL), trading volume, and the possibility of price divergence between these tokens in the future.\n\nYou can access relevant information about frequently traded token pairs on [Uniswap Info](https://info.uniswap.org/#/pools)\n\n<div align=\"center\">\n<img style=\"max-height:600px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png\"/>\n</div>",
-          "title": "Select Pair"
+          "details": "<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"ZIjVzTRk_z0\"></div>\n\n\nUniswap V3 enables Liquidity Providers to concentrate their capital within specific price ranges, allowing them to provide more liquidity at preferred prices. Unlike Uniswap V2, which required all users to provide liquidity across the entire price curve from 0 to infinity, Uniswap V3 allows LPs to selectively allocate capital within the price range they anticipate to yield the highest return.\n\nTo start, you need to choose which token pair you want to supply as liquidity.\n\nWhile any pair of ERC-20 tokens is acceptable, each pair has distinct qualities. It would be helpful to evaluate aspects such as Total Value Locked (TVL), trading volume, and the possibility of price divergence between these tokens in the future.\n\nYou can access relevant information about frequently traded token pairs on [Uniswap Info](https://info.uniswap.org/#/pools)\n\n<div align=\"center\">\n<img style=\"max-height:600px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png\"/>\n</div>"
         },
         {
           "key": "select-fee",
@@ -1646,7 +1646,128 @@
           "title": "Approve Transaction"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "4961783e-1e58-45c1-b2c3-1c6e3697c7a5",
+          "type": "SingleChoice",
+          "content": "Which fee tier in Uniswap V3 is designed for exotic assets that are highly prone to price volatility?",
+          "hint": "Nohint",
+          "explanation": "The 1.00% fee tier in Uniswap V3 is designed for exotic assets that are highly prone to price volatility.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "0.01% fee tier",
+              "key": "A"
+            },
+            {
+              "content": "0.05% fee tier",
+              "key": "B"
+            },
+            {
+              "content": "0.30% fee tier",
+              "key": "C"
+            },
+            {
+              "content": "1.00% fee tier",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1a8695bd-fd5f-4a2d-a10d-1b7f21f99259",
+          "type": "SingleChoice",
+          "content": "What happens if the price moves beyond the specified range when providing liquidity in Uniswap V3?",
+          "hint": "Nohint",
+          "explanation": "If the price moves beyond the specified range in Uniswap V3, the liquidity provider's position will be concentrated in one asset and won't earn trading fees until the price returns to the specified range.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The position is concentrated in one asset and won't earn trading fees until it returns to the range",
+              "key": "A"
+            },
+            {
+              "content": "The liquidity provider receives a penalty",
+              "key": "B"
+            },
+            {
+              "content": "The liquidity provider's position is liquidated",
+              "key": "C"
+            },
+            {
+              "content": "The specified range automatically adjusts to the new price",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a3f34b22-a3e7-44a8-9f82-3e9a1089c28b",
+          "type": "SingleChoice",
+          "content": "What determines the ratio between the deposit amounts of two assets when providing liquidity in Uniswap?",
+          "hint": "Nohint",
+          "explanation": "The ratio between the two deposit amounts depends on where the chosen price range falls in relation to the market price.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The popularity of the tokens in the market",
+              "key": "A"
+            },
+            {
+              "content": "The previous trading volume of the tokens",
+              "key": "B"
+            },
+            {
+              "content": "The position of the chosen price range in relation to the market price",
+              "key": "C"
+            },
+            {
+              "content": "The historical data of the assets",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "7203d565-5f89-4c6e-a0e7-154225ab8f8f",
+          "type": "SingleChoice",
+          "content": "What needs to be done before adding liquidity if it's your initial time using a token on Uniswap V3?",
+          "hint": "Nohint",
+          "explanation": "Before adding liquidity for the initial time using a token on Uniswap V3, you may need to authorize the Uniswap v3 router contract to use tokens on your behalf.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "You need to convert the tokens to a specific standard",
+              "key": "A"
+            },
+            {
+              "content": "You need to authorize the Uniswap v3 router contract to use the tokens",
+              "key": "B"
+            },
+            {
+              "content": "You must exchange the tokens for a stablecoin first",
+              "key": "C"
+            },
+            {
+              "content": "You must provide a security deposit",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     },
@@ -1669,10 +1790,160 @@
           "details": "To remove liquidity from Uniswap V3, follow these detailed steps:\n\n### Step 1 - Select Pool\nAfter connecting your wallet, click the \"Pool\" tab in the top navigation bar to access the Pool management section.In the Pool management section, you'll see a list of your active liquidity positions if you have any. Each position will display the token pair, the price range you've set, and the liquidity you've provided.\n\n<div align=\"center\">\n<img style=\"max-height:500px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954660990_remove_position_1.jpg\"/>\n</div>\n\n### Step 2 - Position Details\nOn the position details page, click the \"Remove Liquidity\" button to initiate the removal process. A new window will appear, allowing you to choose the percentage of liquidity you want to remove.\n\n### Step 3 - Select Amount\nYou can remove all your liquidity by setting the percentage to 100% or any other desired amount. If you've earned fees, you may want to collect them before removing liquidity (as explained in the previous section).\n\n<div align=\"center\">\n<img style=\"max-height:500px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954669683_remove_position_2.jpg\"/>\n</div>\n\n\n<br/>\n\n<br/>\n\n<div align=\"center\">\n<img style=\"max-height:500px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954686023_remove_position_4.jpg\"/>\n</div>\n\n### Step 4 - Review\nAfter selecting the percentage of liquidity to remove, review the details of the removal, including the amounts of each token you'll receive. The Uniswap interface will calculate the amounts based on the current prices and your share of the pool.\n\n<div align=\"center\">\n<img style=\"max-height:500px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954686023_remove_position_4.jpg\"/>\n</div>\n\n\n<br/>\n\n<br/>\n\n<div align=\"center\">\n<img style=\"max-height:500px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954693402_remove_position_5.jpg\"/>\n</div>\n\n### Step 5 - Confirm\nClick the \"Remove\" button in the window to initiate the transaction. A confirmation request will be sent to your connected wallet. Review the transaction details and confirm the transaction by approving it in your wallet.\n\n\n<div align=\"center\">\n<img style=\"max-height:500px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954700302_remove_position_6.jpg\"/>\n</div>\n\nMonitor the transaction on a blockchain explorer, such as Etherscan, by clicking on the transaction hash provided by your wallet or the Uniswap interface. Once the transaction is confirmed, the removed liquidity will be added to your wallet balance in the form of the underlying tokens.\n\n\n\n<div align=\"center\">\n<img style=\"max-height:500px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/dodao-course-template/manage-position/1682954707084_remove_position_7.jpg\"/>\n</div>"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "2acc3f28-1344-45e0-901e-6846502e4d83",
+          "type": "SingleChoice",
+          "content": "Where can you find the Pool management section in the Uniswap interface?",
+          "hint": "Nohint",
+          "explanation": "In the Uniswap interface, the Pool management section can be accessed by clicking on the 'Pool' tab in the top navigation bar.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "By clicking on the 'Pool' tab in the top navigation bar.",
+              "key": "A"
+            },
+            {
+              "content": "By clicking on the 'Fees' tab in the settings.",
+              "key": "B"
+            },
+            {
+              "content": "On the main dashboard page.",
+              "key": "C"
+            },
+            {
+              "content": "In the 'Transactions' tab.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "75a97170-7171-4f06-a0aa-617382dc2c04",
+          "type": "SingleChoice",
+          "content": "What should you do after initiating a transaction to collect fees?",
+          "hint": "Nohint",
+          "explanation": "After initiating a transaction to collect fees, you should review the transaction details and confirm the transaction by approving it in your connected wallet.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Disconnect your wallet immediately.",
+              "key": "A"
+            },
+            {
+              "content": "Refresh the page.",
+              "key": "B"
+            },
+            {
+              "content": "Review the transaction details and confirm it in your wallet.",
+              "key": "C"
+            },
+            {
+              "content": "Contact the Uniswap support team.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e13cf73d-b08f-4c24-9395-d36c57ef5281",
+          "type": "SingleChoice",
+          "content": "What is the first step to remove liquidity from Uniswap V3?",
+          "hint": "Nohint",
+          "explanation": "The first step to remove liquidity from Uniswap V3 is to select the pool after connecting the wallet.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Review the amounts of each token you'll receive.",
+              "key": "A"
+            },
+            {
+              "content": "Select the \"Pool\" tab to access the Pool management section.",
+              "key": "B"
+            },
+            {
+              "content": "Click the \"Remove Liquidity\" button.",
+              "key": "C"
+            },
+            {
+              "content": "Set the percentage of liquidity to remove.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "4c5340c9-5c4d-4c89-bf61-6c4f66c43276",
+          "type": "SingleChoice",
+          "content": "On which page do you click the \"Remove Liquidity\" button?",
+          "hint": "Nohint",
+          "explanation": "The \"Remove Liquidity\" button is clicked on the position details page.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "On the main dashboard.",
+              "key": "A"
+            },
+            {
+              "content": "On the Pool management section.",
+              "key": "B"
+            },
+            {
+              "content": "On the position details page.",
+              "key": "C"
+            },
+            {
+              "content": "On the transaction confirmation page.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0d196e68-4825-414a-8bc5-75c115245938",
+          "type": "SingleChoice",
+          "content": "How can you monitor the transaction after initiating the removal?",
+          "hint": "Nohint",
+          "explanation": "You can monitor the transaction on a blockchain explorer like Etherscan by clicking on the transaction hash.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "By refreshing the Uniswap interface.",
+              "key": "A"
+            },
+            {
+              "content": "Using a blockchain explorer like Etherscan.",
+              "key": "B"
+            },
+            {
+              "content": "By checking your wallet's transaction history.",
+              "key": "C"
+            },
+            {
+              "content": "Through an email confirmation from Uniswap.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     }
-  ],
-  "priority": 77
+  ]
 }

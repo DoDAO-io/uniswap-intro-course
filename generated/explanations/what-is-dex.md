@@ -29,6 +29,9 @@ An automated market maker (AMM) is a type of decentralized exchange (DEX) protoc
 AMMs are used in DeFi platforms and are popular for their simplicity, transparency, and accessibility.
 
 
+### Explainer Video
+<div class="play-js-player py-6" data-plyr-provider="youtube" data-plyr-embed-id="2tTVJL4bpTU"></div>
+
  
  **How AMM Works?**        
 ### AMM Intro
@@ -39,6 +42,8 @@ An Automated Market Maker (AMM) is a type of decentralized exchange (DEX) protoc
 </div>
 
 In an AMM, traders can trade cryptocurrencies and other digital assets by swapping them with each other, without having to go through a centralized exchange or intermediaries. Instead, AMMs rely on a liquidity pool, which is a pool of funds that are contributed by liquidity providers. These liquidity providers deposit funds into a smart contract that is designed to facilitate trading.
+
+<div class="play-js-player py-6" data-plyr-provider="youtube" data-plyr-embed-id="1PbZMudPP5E"></div>
 
 ### Price Calculation
 When a trader wants to buy or sell an asset, they submit a transaction to the smart contract with the amount of asset they want to buy or sell, and the smart contract automatically calculates the price based on a mathematical formula that determines the ratio of each asset in the liquidity pool.
@@ -65,6 +70,8 @@ One major disadvantage is the risk of impermanent loss, which occurs when the va
  **What are Liquidity Pool?**        
 ### What are Liquidity Pools?
 A liquidity pool is a pool of tokens held by a smart contract on a decentralized exchange, allowing traders to swap one token for another by trading against the pool. The pool's price is determined by the ratio of tokens in the pool, and liquidity providers earn a share of the trading fees in proportion to the amount of liquidity they provide. Liquidity pools enable decentralized trading by providing a source of liquidity, and are a critical component of AMMs.
+
+<div class="play-js-player py-6" data-plyr-provider="youtube" data-plyr-embed-id="dVJzcFDo498"></div>
 
 ### User Position - Liquidity Pool Tokens
 In a liquidity pool, users can add funds to the pool in exchange for a share of the liquidity pool tokens. These tokens are used to represent the user's share of the liquidity pool, and they can be traded or sold just like any other cryptocurrency.

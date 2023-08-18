@@ -1,0 +1,76 @@
+- uuid: 4961783e-1e58-45c1-b2c3-1c6e3697c7a5
+  type: SingleChoice
+  content: Which fee tier in Uniswap V3 is designed for exotic assets that are highly prone to price volatility?
+  hint: 'Nohint'
+  explanation: >-
+    The 1.00% fee tier in Uniswap V3 is designed for exotic assets that are highly prone to price volatility.
+  answerKeys:
+    - D
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: 0.01% fee tier
+      key: A
+    - content: 0.05% fee tier
+      key: B
+    - content: 0.30% fee tier
+      key: C
+    - content: 1.00% fee tier
+      key: D
+- uuid: 1a8695bd-fd5f-4a2d-a10d-1b7f21f99259
+  type: SingleChoice
+  content: What happens if the price moves beyond the specified range when providing liquidity in Uniswap V3?
+  hint: 'Nohint'
+  explanation: >-
+    If the price moves beyond the specified range in Uniswap V3, the liquidity provider's position will be concentrated in one asset and won't earn trading fees until the price returns to the specified range.
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The position is concentrated in one asset and won't earn trading fees until it returns to the range
+      key: A
+    - content: The liquidity provider receives a penalty
+      key: B
+    - content: The liquidity provider's position is liquidated
+      key: C
+    - content: The specified range automatically adjusts to the new price
+      key: D
+- uuid: a3f34b22-a3e7-44a8-9f82-3e9a1089c28b
+  type: SingleChoice
+  content: What determines the ratio between the deposit amounts of two assets when providing liquidity in Uniswap?
+  hint: 'Nohint'
+  explanation: >-
+    The ratio between the two deposit amounts depends on where the chosen price range falls in relation to the market price.
+  answerKeys:
+    - C
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The popularity of the tokens in the market
+      key: A
+    - content: The previous trading volume of the tokens
+      key: B
+    - content: The position of the chosen price range in relation to the market price
+      key: C
+    - content: The historical data of the assets
+      key: D
+- uuid: 7203d565-5f89-4c6e-a0e7-154225ab8f8f
+  type: SingleChoice
+  content: What needs to be done before adding liquidity if it's your initial time using a token on Uniswap V3?
+  hint: 'Nohint'
+  explanation: >-
+    Before adding liquidity for the initial time using a token on Uniswap V3, you may need to authorize the Uniswap v3 router contract to use tokens on your behalf.
+  answerKeys:
+    - B
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: You need to convert the tokens to a specific standard
+      key: A
+    - content: You need to authorize the Uniswap v3 router contract to use the tokens
+      key: B
+    - content: You must exchange the tokens for a stablecoin first
+      key: C
+    - content: You must provide a security deposit
+      key: D

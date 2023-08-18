@@ -15,9 +15,7 @@ Impermanent loss is a phenomenon experienced by liquidity providers in automated
 Impermanent loss occurs when liquidity providers deposit assets into an AMM's liquidity pool, and the prices of those assets change relative to each other. AMMs do not automatically adjust their prices based on external markets; they rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices. During this process, arbitrageurs extract profits, which come at the expense of liquidity providers, resulting in impermanent loss. If the relative prices of tokens in the AMM return to their original state, the impermanent loss disappears, and liquidity providers earn trading fees. However, if the prices do not return to their original levels, impermanent loss can become permanent, reducing the providers' overall returns.
 
 ### Video
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8XJ1MSTEuU0?start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div> 
+<div class="play-js-player py-6" data-plyr-provider="youtube" data-plyr-embed-id="8XJ1MSTEuU0"></div> 
  **Example of Impermanent Loss**        
 Let's consider an example of two friends, Alice and Bob, who each have $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH pool, while Bob decides to hold on to his ETH. Let's assume that at the time of deposit, 1 ETH is worth $2,000, and Alice has 5 ETH and $5,000 in USDC.
 
