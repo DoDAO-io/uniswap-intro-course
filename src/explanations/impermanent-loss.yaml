@@ -41,13 +41,18 @@
   shortTitle: Example
   details: >+
     Let's consider an example of two friends, Alice and Bob, who each have
-    $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH
+    $10,000 worth of assets. Alice decides to provide liquidity to a ETH-USDC
     pool, while Bob decides to hold on to his ETH. Let's assume that at the time
-    of deposit, 1 ETH is worth $2,000, and Alice has 5 ETH and $5,000 in USDC.
+    of deposit, 1 ETH is worth $2,000, and Alice has 2.5 ETH and $5,000 in USDC.
 
 
-    Alice adds her assets to the USDC-ETH liquidity pool, depositing 5 ETH and
-    $5,000 USDC. The pool now has a 50:50 ratio of USDC to ETH.
+    Alice adds her assets to the ETH-USDC liquidity pool, depositing 2.5 ETH and
+    $5,000 USDC. 
+
+
+    Assume the pool had a 50:50 ratio of ETH to USDC and the asstes before
+    Alice's deposit were 2.5 ETH and $5,000 USDC. After Alice's added her
+    assets, the pool's assets are now 5 ETH and $10,000 USDC.  
 
 
     Bob, on the other hand, keeps his 5 ETH and doesn't participate in the
@@ -70,12 +75,9 @@
 
 
     <div align="center">
-
-    <img
-    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg"
-    />
-
+      <img style="max-height:800px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent_loss_uniswap/1695687177547_impermanent_loss%20example.png"/>
     </div>
+
 
 
     In this example, Alice experiences impermanent loss due to the change in the
@@ -88,6 +90,9 @@
     In this case, Alice's impermanent loss is $20,000 (the value if she had held
     her assets) - $13,500 (the value of her share in the liquidity pool) =
     $6,500.
+
+
+
 
 - key: factors-impacting-impermanent-loss
   shortTitle: Factors
